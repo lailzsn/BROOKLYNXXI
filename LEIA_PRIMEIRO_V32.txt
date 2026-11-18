@@ -1,0 +1,7 @@
+V32 — HORÁRIOS MARCADOS
+1. Execute SQL_V32_EXECUTAR_NO_SUPABASE.sql no Supabase SQL Editor.
+2. Publique o conteúdo de SITE_GITHUB na raiz do GitHub Pages.
+3. Faça login como admin ou barbeiro e abra 📅 Horários marcados.
+4. O quadro mostra todos os barbeiros ativos, nomes de clientes e vagas; a página pública não mostra este quadro.
+5. O quadro recarrega a cada 15 segundos enquanto aberto.
+OBS: Não mexe nas Edge Functions Push, lembrete 1h ou SQL da V31.

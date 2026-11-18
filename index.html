@@ -1,0 +1,1038 @@
+<!doctype html><html lang="pt-BR"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#070b10"><meta name="apple-mobile-web-app-capable" content="yes"><meta name="apple-mobile-web-app-status-bar-style" content="black"><meta name="apple-mobile-web-app-title" content="BROOKLYNXXI"><meta name="application-name" content="BROOKLYNXXI"><link rel="manifest" href="manifest.webmanifest?v=23"><link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png?v=23"><link rel="apple-touch-icon" sizes="180x180" href="/BROOKLYNXXI/apple-touch-icon.png?v=23"><link rel="apple-touch-icon-precomposed" href="/BROOKLYNXXI/apple-touch-icon.png?v=23"><link rel="shortcut icon" type="image/png" href="favicon.png?v=23"><title>BROOKLYNXXI | Barbearia</title><style>
+:root{--bg:#070b10;--panel:#111923;--panel2:#172432;--blue:#087bdf;--line:#2b3b4b;--muted:#a6b3c0;--white:#f8fafc}*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--white);font-family:Inter,system-ui,-apple-system,Segoe UI,sans-serif}button,input,select,textarea{font:inherit}button{cursor:pointer}button:disabled{opacity:.4;cursor:not-allowed}.wrap{max-width:1080px;margin:auto;padding:0 18px}.top{position:sticky;top:0;z-index:9;background:#080d13ef;backdrop-filter:blur(14px);border-bottom:1px solid #263240}.topin{display:flex;align-items:center;justify-content:space-between;min-height:67px;gap:12px}.brand{display:flex;align-items:center;gap:10px;font-weight:900;letter-spacing:.5px}.brand img{width:39px;height:43px;object-fit:contain}.iconbtn{background:#172331;border:1px solid #344454;color:white;border-radius:11px;padding:10px 13px}.nav{display:flex;gap:8px;align-items:center}.nav button{background:transparent;color:#c6d3de;border:0;padding:10px}.nav button:hover{color:white}.hero{position:relative;overflow:hidden;border-bottom:1px solid #203040;background:radial-gradient(circle at 80% 20%,#174264 0,transparent 35%),linear-gradient(125deg,#05080b,#0b1824 65%,#08101a);min-height:390px}.hero:before{content:'✂';position:absolute;right:6%;top:0;font-size:290px;transform:rotate(-25deg);color:#ffffff08}.hero-inner{padding:55px 0 48px;position:relative;display:flex;align-items:center;gap:42px}.hero-logo{width:170px;height:170px;object-fit:contain;filter:drop-shadow(0 15px 35px #0009)}h1{font-size:clamp(32px,6vw,64px);line-height:1;margin:8px 0 12px;letter-spacing:-2px}.eyebrow{color:#56b8ff;font-weight:800;letter-spacing:3px;font-size:12px}.lead{color:#b8c6d4;font-size:17px;max-width:510px;line-height:1.6}.primary{background:linear-gradient(180deg,#168ce9,#0554ad);color:white;border:1px solid #399fff;border-radius:13px;padding:14px 21px;font-weight:800;box-shadow:0 5px 20px #0055ac44}.secondary{background:#152230;color:white;border:1px solid #344a60;border-radius:13px;padding:13px 18px;font-weight:700}.actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:23px}.section{padding:30px 0}.section h2{margin:0 0 17px;font-size:23px}.cards{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.card{border:1px solid var(--line);background:linear-gradient(145deg,#17212b,#0e151e);border-radius:17px;padding:21px;text-align:left;color:white;min-height:118px}.card .emoji{font-size:27px;display:block;margin-bottom:12px}.card strong{font-size:15px}.notice{border:1px solid #3d5368;background:#172432;border-radius:16px;padding:20px;margin:10px 0 20px}.notice p{color:#becbd7;margin:8px 0 0}.foot{border-top:1px solid #243344;padding:25px 0;color:#a5b7c7;display:flex;gap:14px;justify-content:space-between;flex-wrap:wrap;font-size:13px}.foot a{color:#5bbaff}.view{display:none}.view.active{display:block}.box{background:var(--panel);border:1px solid var(--line);border-radius:18px;padding:21px;margin:18px 0}.steps{display:flex;gap:8px;margin:20px 0;overflow:auto}.step{flex:1;min-width:70px;text-align:center;border-bottom:3px solid #304253;padding:8px 3px;color:#8fa1b0;font-size:12px}.step.on{color:#60baff;border-color:#078af0}.choices{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px}.choice{background:#14202c;border:1px solid #34495b;border-radius:14px;color:white;padding:16px;text-align:left}.choice.selected{border:2px solid #1b9dff;background:#123450}.choice small{color:#b2c1ce;display:block;margin-top:7px}.formgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:13px}.field{display:flex;flex-direction:column;gap:7px;margin:10px 0}.field label{font-size:13px;color:#c6d4e0;font-weight:650}.field input,.field select,.field textarea{width:100%;background:#0b131c;color:white;border:1px solid #3b5064;border-radius:10px;padding:13px;outline:none}.field input:focus,.field select:focus,.field textarea:focus{border-color:#1596f8}.slots{display:grid;grid-template-columns:repeat(4,1fr);gap:9px}.slot{padding:13px 5px;border:1px solid #3b5064;border-radius:10px;background:#152433;color:white}.slot.selected{background:#075baf;border-color:#2bafff}.slot:disabled{background:#232b33;color:#7e8993}.pill{font-size:11px;border-radius:30px;padding:5px 9px;background:#21354b;color:#a8d8ff;white-space:nowrap}.pill.pending{background:#56451b;color:#ffe19c}.pill.confirmed{background:#194735;color:#a3f5cb}.pill.cancelled{background:#4b232a;color:#ffb6c0}.booking{border:1px solid #33485c;border-radius:13px;padding:15px;margin:10px 0;display:flex;justify-content:space-between;align-items:center;gap:15px;flex-wrap:wrap}.booking small{color:#aabccc;display:block;margin-top:5px}.booking .actions{margin:0}.tiny{padding:8px 11px;font-size:12px}.toolbar{display:flex;gap:9px;flex-wrap:wrap;margin:16px 0}.toolbar button.active{border-color:#229fff;background:#123f6a}.hidden{display:none!important}.muted{color:#a8b7c4}.back{background:none;color:#9fd6ff;border:0;padding:10px 0}.login{max-width:460px;margin:35px auto}.hint{font-size:12px;color:#a3b6c5;line-height:1.6}.statgrid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}.stat{background:#152432;border:1px solid #2c4254;padding:17px;border-radius:13px}.stat b{font-size:25px;display:block;margin-top:7px}.toast{position:fixed;bottom:22px;left:50%;transform:translateX(-50%);background:#163c59;border:1px solid #268fe2;color:white;padding:13px 20px;border-radius:12px;z-index:20;max-width:90%;box-shadow:0 10px 30px #0009}.dayline{display:flex;gap:9px;align-items:center;flex-wrap:wrap}.dayline input{background:#0b131c;color:white;border:1px solid #3b5064;padding:10px;border-radius:9px}.adminsection{margin-top:25px;border-top:1px solid #304252;padding-top:15px}@media(max-width:650px){.hero-inner{flex-direction:column;gap:12px;text-align:center;padding:33px 0 35px}.hero-logo{width:120px;height:120px}.hero{min-height:0}.lead{font-size:15px}.actions{justify-content:center}.cards{grid-template-columns:repeat(2,1fr)}.card{padding:17px;min-height:105px}.nav button{padding:7px;font-size:12px}.brand span{font-size:13px}.brand img{width:30px;height:35px}.formgrid{grid-template-columns:1fr}.slots{grid-template-columns:repeat(3,1fr)}.section{padding:20px 0}.box{padding:15px}.statgrid{gap:6px}.stat{padding:12px}.stat b{font-size:21px}}
+
+/* Identidade visual BROOKLYNXXI: fotografia e logo original */
+.hero{background:linear-gradient(90deg,rgba(3,8,14,.80),rgba(3,9,17,.69)),url("barbearia-fundo.jpg") center center/cover no-repeat;min-height:430px}
+.hero:before{display:none}
+.hero-logo{width:185px;height:185px;object-fit:contain;background:#052b43b8;border-radius:18px;padding:8px;box-shadow:0 15px 38px #0009}
+.brand img{background:#07324c;border-radius:5px}
+@media(max-width:650px){.hero{min-height:470px;background-position:center}.hero-inner{padding:32px 0 42px}.hero-logo{width:135px;height:135px}.hero h1{font-size:clamp(31px,9vw,48px)}}
+
+/* V3 - identidade fiel ao layout mobile aprovado */
+:root{--bg:#05090e;--panel:#101820;--panel2:#182633;--blue:#087fe9;--line:#34414b}
+body{background:radial-gradient(circle at top,#122131,#05090e 58%)}
+.top{background:#060b11ed;border-bottom:1px solid #283440}.topin{min-height:62px}.brand img{width:34px;height:38px}.brand span{font-size:15px}
+.hero{min-height:610px;background:linear-gradient(180deg,rgba(0,0,0,.15) 0%,rgba(0,0,0,.25) 32%,rgba(0,0,0,.76) 75%,#05090e 100%),url('barbearia-fundo.jpg') center 42%/cover no-repeat;border-bottom:0}
+.hero-inner{min-height:610px;display:flex;flex-direction:column;justify-content:center;gap:10px;text-align:center;padding:28px 0 38px}
+.hero-logo{width:160px;height:160px;padding:0;background:transparent;border-radius:0;box-shadow:none;object-fit:contain;filter:drop-shadow(0 9px 18px #000)}
+.hero h1{font-size:clamp(31px,6vw,57px);letter-spacing:-1.5px;margin:6px 0 0;font-weight:950;text-shadow:0 3px 12px #000}
+.hero .eyebrow{color:#f4f6fa;font-size:13px;letter-spacing:7px;font-weight:700;margin-top:2px}
+.hero .lead{font-size:17px;max-width:420px;color:#fff;line-height:1.55;margin:22px auto 10px;text-shadow:0 2px 8px #000}
+.hero .actions{width:min(100%,450px);margin:6px auto 0;display:grid;gap:12px}
+.hero .primary{font-size:19px;min-height:65px;border-radius:19px;background:linear-gradient(180deg,#0a82eb,#03468f);border:2px solid #2baaff;box-shadow:0 8px 24px #001a3e}
+.hero .secondary{min-height:44px;border-radius:14px;background:#111d29dd}
+.home-links{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px;margin-top:14px}
+.home-links .card{min-height:105px;padding:18px 15px;display:flex;align-items:center;gap:15px;background:linear-gradient(135deg,#18232d,#0a1118);border:1.5px solid #46525c;border-radius:20px}
+.home-links .card .emoji{margin:0;font-size:32px;min-width:38px;text-align:center}.home-links .card strong{font-size:16px;line-height:1.25}
+.home-panel{max-width:520px;margin:-14px auto 0;position:relative;padding:0 0 18px}
+.home-panel .section{padding:0}.home-panel .section h2{display:none}
+.home-panel .notice{margin:18px 0 12px;padding:20px;border-radius:20px;background:linear-gradient(130deg,#24313d,#101923);border:1.5px solid #53616d}
+.home-panel .notice b{font-size:17px}.home-panel .notice p{font-size:14px;line-height:1.55}
+.social-links{display:flex;justify-content:space-around;gap:12px;padding:15px 0 7px}
+.social-links a{display:flex;align-items:center;flex-direction:column;gap:6px;color:white;text-decoration:none;font-size:13px}.social-links .social-icon{font-size:29px}
+#book .wrap{max-width:640px}#book .steps{gap:5px}#book .step{font-size:12px;line-height:1.5;border-bottom:0;position:relative;padding:36px 2px 8px}#book .step:before{content:'';position:absolute;top:3px;left:50%;transform:translateX(-50%);width:29px;height:29px;border-radius:50%;border:2px solid #65717c;background:#0c141c}#book .step.on:before{border-color:#20a4ff;box-shadow:0 0 0 4px #047ee933,0 0 16px #047ee9}#book .step.on{color:#75c4ff}
+#book .box{background:transparent;border:0;padding:10px 0}#book .choice{border-radius:19px;padding:20px;background:linear-gradient(135deg,#1a2834,#0c131b);border:1.5px solid #475461;min-height:88px}#book .choice.selected{border:2px solid #0e9fff;box-shadow:0 0 0 1px #0e9fff33}#book .actions .primary{flex:1}
+@media(min-width:800px){.hero{min-height:570px}.hero-inner{min-height:570px}.home-panel{max-width:800px}.home-links{grid-template-columns:repeat(4,minmax(0,1fr))}.home-links .card{flex-direction:column;text-align:center;justify-content:center}.hero .actions{max-width:440px}}
+@media(max-width:650px){.wrap{padding:0 20px}.topin{min-height:57px}.brand span{font-size:12px}.nav{gap:0}.nav button{padding:7px;font-size:12px}.hero{min-height:540px;background-position:center}.hero-inner{min-height:540px;padding:15px 0 45px}.hero-logo{width:142px;height:142px}.hero h1{font-size:clamp(30px,8.6vw,43px)}.hero .eyebrow{letter-spacing:5px;font-size:11px}.hero .lead{font-size:16px;margin:25px auto 9px}.home-panel{margin:-20px auto 0}.home-links .card{padding:15px 11px;gap:9px;min-height:100px}.home-links .card .emoji{font-size:27px;min-width:30px}.home-links .card strong{font-size:14px}.home-panel .notice{margin-top:17px}}
+
+/* V4 premium: acabamento visual preservando toda a lógica da V3 */
+body{background:#05090e;background-image:radial-gradient(ellipse at 50% 0,#10273b 0,transparent 38%)}
+.top{background:#060b10db;border-color:#263b4a}.topin{max-width:760px}.brand{font-size:14px}.nav button{border-radius:10px;transition:background .2s}.nav button:hover{background:#152635}
+.hero{background-image:linear-gradient(180deg,rgba(0,0,0,.15) 0%,rgba(0,0,0,.3) 32%,rgba(0,0,0,.78) 74%,#05090e 100%),url('barbearia-fundo.jpg');background-position:center center}
+.hero-inner{max-width:720px}.hero-logo{width:175px;height:175px}.hero h1{font-weight:950;letter-spacing:-1.4px}.hero .eyebrow{position:relative;font-weight:700;letter-spacing:8px;color:#f6f8fa}.hero .lead{max-width:380px}
+.hero .primary,.primary{background:linear-gradient(180deg,#1389ee 0%,#0765c4 45%,#033f89 100%);border:2px solid #1da7ff;box-shadow:inset 0 1px 1px #8fd8ff66,0 9px 26px #004d9b44;transition:transform .18s,filter .18s}
+.primary:hover,.card:hover,.choice:hover{filter:brightness(1.12);transform:translateY(-2px)}.primary:active,.card:active,.choice:active{transform:translateY(0)}
+.hero .primary{display:flex;align-items:center;justify-content:space-around;gap:10px}.calendar-glyph{font-size:27px}
+.home-panel{max-width:570px}.home-links .card{border:1.5px solid #627486;background:linear-gradient(150deg,#1d303f 0%,#0b141c 85%);box-shadow:inset 0 1px #ffffff14,0 8px 24px #0005;transition:transform .18s,filter .18s}
+.home-links .card .emoji{font-size:31px}.home-links .tile-icon{width:37px;height:37px;object-fit:contain;flex:none}.home-links .card strong{font-weight:750}
+.home-panel .notice{background:linear-gradient(145deg,#203749,#101b26);border:1.5px solid #607b91;box-shadow:inset 0 1px #ffffff18,0 10px 30px #0006}.notice-icon{color:#1bb2ff;font-weight:900;letter-spacing:-3px;margin-right:8px}
+.social-links{padding:20px 0 16px;gap:10px}.social-links a{gap:8px;font-weight:550;min-width:80px;transition:transform .2s}.social-links a:hover{transform:translateY(-3px)}.social-links .social-icon{display:block;width:42px;height:42px;object-fit:contain;filter:drop-shadow(0 4px 7px #0009)}
+#book{background:radial-gradient(ellipse at 80% 0,#102335 0,transparent 55%),#05090e;min-height:85vh}#book .wrap{max-width:680px}#book h2{font-size:clamp(25px,5vw,33px)}#book .steps{margin:28px 0 33px}#book .step{padding-top:44px}#book .step:before{width:32px;height:32px;top:0}#book .step.on:before{background:#0851a3;border-color:#24b5ff;box-shadow:0 0 0 4px #088bff22,0 0 18px #078fff}
+#book .choice{display:flex;align-items:center;gap:14px;min-height:106px;box-shadow:inset 0 1px #ffffff14;transition:transform .18s,filter .18s}#book .choice.selected{background:linear-gradient(135deg,#15354c,#0a1621);box-shadow:0 0 0 1px #1e9aff55,0 0 25px #006cc122}#book .choice small{margin-top:5px}
+.barber-avatar{display:grid;place-items:center;flex:none;width:64px;height:64px;border-radius:50%;background:radial-gradient(circle at 30% 20%,#2e6786,#071724);border:2px solid #4e8bb0;font-size:27px;color:white}.barber-name{flex:1}.barber-name b{font-size:20px}.choice-check{font-size:24px;color:#1d9fff}
+#book .actions .primary{min-height:54px;font-size:17px}.foot{max-width:760px}
+@media(min-width:800px){.home-panel{max-width:760px}.home-links{grid-template-columns:repeat(2,minmax(0,1fr))}.home-links .card{flex-direction:row;text-align:left;justify-content:flex-start}}
+@media(max-width:650px){.topin{min-height:55px}.brand span{font-size:12px}.hero{min-height:530px}.hero-inner{min-height:530px}.hero-logo{width:142px;height:142px}.hero .lead{margin:25px auto 10px}.home-panel{margin:-14px auto 0;padding-left:19px;padding-right:19px}.home-links{gap:12px}.home-links .card{padding:14px 10px;min-height:103px}.home-links .tile-icon{width:31px;height:31px}.home-links .card strong{font-size:13px}.social-links .social-icon{width:39px;height:39px}#book .choice{padding:15px;min-height:94px}.barber-avatar{width:53px;height:53px}}
+@media(max-width:360px){.brand span{font-size:10px}.nav button{font-size:11px;padding:6px}.home-links .card{gap:6px}.hero h1{font-size:29px}}
+.calendar-head{display:flex;align-items:center;justify-content:space-between;gap:8px;flex-wrap:wrap;margin-bottom:12px}.calendar-week,.calendar-grid{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:5px}.calendar-week span{text-align:center;font-size:11px;color:#aabccc;padding:5px 0}.calendar-day{min-height:48px;border:1px solid #31495f;border-radius:10px;background:#142230;color:#e9f5ff;position:relative;font-weight:700}.calendar-day.selected{background:#0865ba;border-color:#59b9ff}.calendar-day.today{outline:1px solid #59b9ff}.calendar-day .dot{display:block;margin:4px auto 0;width:6px;height:6px;border-radius:50%;background:#54d2a5}.calendar-day.selected .dot{background:white}.calendar-day.empty{border:0;background:transparent}.whats-link{display:inline-flex;align-items:center;gap:5px;color:#83e5b6;text-decoration:underline;font-weight:700;margin-top:5px;cursor:pointer}.whats-link:hover{color:#c4ffe0}.booking .actions{gap:6px}@media(max-width:650px){.calendar-day{min-height:43px;padding:5px 0;font-size:13px}}
+
+/* V9: galeria pública responsiva */
+.cuts-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(155px,1fr));gap:14px}
+.cut-card{overflow:hidden;border:1px solid #38516a;border-radius:15px;background:#101b27}
+.cut-card img{width:100%;aspect-ratio:1/1;object-fit:cover;display:block}
+.cut-card b{display:block;padding:12px;font-size:14px}
+.cut-admin{display:flex;align-items:center;gap:12px;padding:10px;border:1px solid #344b60;border-radius:13px;margin:10px 0}
+.cut-admin img{width:74px;height:74px;object-fit:cover;border-radius:9px}
+.cut-admin .primary,.cut-admin .secondary{margin-left:auto}
+/* V16: guia de instalacao PWA */
+.install-guide{margin:30px 0 38px;padding:24px;border:1px solid #31506b;border-radius:20px;background:linear-gradient(145deg,#14283c,#0b141f)}
+.install-head{display:flex;align-items:center;gap:14px;margin-bottom:15px}.install-head img{width:62px;height:62px;border-radius:16px;border:1px solid #3c6485}.install-head h2{margin:0 0 4px}.install-head p{margin:0;color:var(--muted)}
+.install-platforms{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px;margin-top:18px}.install-platform{border:1px solid #2e4359;border-radius:15px;padding:18px;background:#0b1622}.install-platform h3{margin:0 0 12px}.install-platform ol{margin:0;padding-left:21px;color:#d8e4ed;line-height:1.7}.install-platform li{margin-bottom:5px}.install-hint{color:var(--muted);font-size:13px;margin:13px 0 0}.install-cta{margin-top:15px}.install-cta button{background:#087bdf;color:#fff;border:0;border-radius:12px;padding:12px 18px;font-weight:700}.install-cta button[hidden]{display:none}
+@media(max-width:680px){.install-platforms{grid-template-columns:1fr}.install-guide{padding:17px}.install-head img{width:54px;height:54px}}
+
+/* V17: card Baixe o app e instrucoes em janela sob demanda */
+.install-overlay[hidden]{display:none!important}
+.install-overlay{position:fixed;inset:0;z-index:9999;background:rgba(0,0,0,.82);display:flex;align-items:center;justify-content:center;padding:18px;overflow-y:auto}
+.install-dialog{position:relative;width:min(100%,660px);max-height:calc(100dvh - 36px);overflow-y:auto;background:#0b1622;border:1px solid #4b7598;border-radius:22px;box-shadow:0 22px 75px #000c;padding:18px}
+.install-dialog .install-guide{margin:20px 0 0;border:0;padding:4px;background:transparent}
+.install-dialog .install-head{padding-right:34px}
+.install-close{position:absolute;right:15px;top:13px;width:38px;height:38px;border-radius:11px;border:1px solid #49647d;background:#1b3044;color:white;font-size:20px;cursor:pointer;z-index:1}
+@media(max-width:680px){.install-dialog{padding:14px}.install-dialog .install-guide{padding:0}.install-dialog .install-head h2{font-size:20px}}
+
+/* V20: evita sobreposicao com a barra de status/notch no iPhone instalado. */
+html{min-height:100%;background:#070b10}
+body{padding-top:env(safe-area-inset-top, 0px);padding-bottom:env(safe-area-inset-bottom, 0px)}
+.top{top:0}
+@supports(padding-top:max(0px)){body{padding-top:max(0px,env(safe-area-inset-top,0px))}}
+
+/* V22: filtros clicáveis e próximo atendimento */
+.stat-click{cursor:pointer;color:inherit;text-align:left;font:inherit;border:1px solid rgba(255,255,255,.13);transition:border-color .2s,background .2s}
+.stat-click:hover,.stat-click:focus-visible,.stat-selected{border-color:#3b82f6!important;background:rgba(59,130,246,.12)!important}
+.next-booking{border:2px solid #3b82f6!important;background:rgba(59,130,246,.09);border-radius:12px;padding:12px;margin:8px 0}
+.next-label{display:block;color:#93c5fd;font-size:.78rem;font-weight:800;letter-spacing:.03em;margin-bottom:7px}
+
+/* V29: painel responsivo e histórico */
+#panelTabs{display:flex;gap:8px;overflow-x:auto;flex-wrap:nowrap;padding-bottom:10px;scrollbar-width:thin;overscroll-behavior-x:contain}
+#panelTabs button{white-space:nowrap;flex:0 0 auto}
+.history-filters{display:flex;gap:8px;flex-wrap:wrap;margin:14px 0 20px}
+.history-filter{border:1px solid #36465f;background:#17243a;color:#dce8ff;padding:9px 12px;border-radius:999px;font-weight:650;cursor:pointer}
+.history-filter.selected{border-color:#4d9aff;background:#1858b5;color:white}
+.history-filter span{opacity:.8;margin-left:4px}
+.booking[hidden]{display:none!important}
+#panelContent .booking{gap:12px;overflow-wrap:anywhere}
+#panelContent .booking .actions{display:flex;flex-wrap:wrap;gap:8px}
+@media(max-width:620px){#panel .section{padding-top:22px}#panelContent .booking{align-items:flex-start;flex-direction:column}#panelContent .booking .actions{width:100%}#panelContent .booking .actions button{flex:1;min-width:110px}#stats{gap:8px}.stat{min-width:0;padding:12px 8px}.history-filter{font-size:12px;padding:8px 10px}}
+
+/* V30: todas as ações à vista, sem rolagem lateral */
+#panelTabs{display:grid!important;grid-template-columns:repeat(4,minmax(0,1fr));gap:7px!important;overflow:visible!important;padding-bottom:8px!important}
+#panelTabs button{white-space:normal!important;min-width:0!important;min-height:44px;padding:9px 5px!important;font-size:clamp(10px,2.5vw,13px);line-height:1.2;overflow-wrap:anywhere;text-align:center}
+@media(min-width:800px){#panelTabs{grid-template-columns:repeat(6,minmax(0,1fr))}}
+@media(max-width:380px){#panelTabs{grid-template-columns:repeat(3,minmax(0,1fr))}}
+/* V30: calendário de agendamento */
+.booking-calendar{margin:14px 0 18px;padding:13px;background:#101d2d;border:1px solid #355574;border-radius:15px}
+.booking-calendar-head{display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:12px}
+.booking-calendar-head strong{text-align:center;text-transform:capitalize;font-size:15px}
+.booking-calendar-head button{min-width:39px;min-height:39px}
+.booking-calendar-week,.booking-calendar-days{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:5px}
+.booking-calendar-week span{text-align:center;font-size:11px;color:#a9c3db;padding:5px 0}
+.booking-calendar-days button{min-width:0;min-height:43px;border:1px solid #34516e;border-radius:9px;background:#182b3d;color:#e9f5ff;font-weight:700;font-size:13px}
+.booking-calendar-days button.today{border-color:#69b9ff}
+.booking-calendar-days button.selected{background:#0969bd;border-color:#70c7ff;color:white}
+.booking-calendar-days button:disabled{opacity:.25;cursor:not-allowed}
+.booking-calendar-days .blank{display:block}
+.booking-calendar-shortcuts{display:flex;gap:8px;margin-top:12px}
+.booking-calendar-shortcuts button{flex:1;min-width:0}
+.booking-calendar-selected{margin:10px 0 0;color:#bcd9ef;font-size:13px}
+
+/* V35 — colunas acompanham os profissionais cadastrados e visíveis */
+.board32-grid.board35-count-1{grid-template-columns:minmax(0,1fr)}
+.board32-grid.board35-count-2{grid-template-columns:repeat(2,minmax(0,1fr))}
+.board32-grid.board35-count-3{grid-template-columns:repeat(3,minmax(0,1fr))}
+.board32-grid.board35-count-4{grid-template-columns:repeat(4,minmax(0,1fr))}
+.board35-person-row{display:flex;justify-content:space-between;align-items:center;gap:8px}
+.board35-person-row strong{min-width:0}
+.board35-hide{flex-shrink:0;border:1px solid #b34a55;background:#3d1724;color:#ffe6e9;border-radius:8px;font-size:12px;padding:7px 9px;cursor:pointer}
+.board35-hidden{display:flex;flex-wrap:wrap;gap:8px;align-items:center;justify-content:center;margin:8px 0 16px;color:#d7e5f4;font-size:13px}
+@media(max-width:1100px){.board32-grid.board35-count-4{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:960px){.board32-grid.board35-count-3{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.board32-grid.board35-count-2,.board32-grid.board35-count-3,.board32-grid.board35-count-4{grid-template-columns:minmax(0,1fr)}}
+
+/* V36: no celular um barbeiro por vez; telas grandes usam colunas dinâmicas. */
+.board36-mobile-nav{display:none}
+#panelContent .board32-grid{grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr))}
+body.board33-focus #panelContent .board32-grid{grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr))}
+@media(max-width:650px){
+ #panelContent .board36-mobile-nav{display:flex;align-items:center;justify-content:space-between;gap:5px;margin:10px 0}
+ #panelContent .board36-mobile-nav strong{font-size:13px;text-align:center}
+ #panelContent .board36-mobile-nav button{font-size:11px;padding:8px 5px}
+ #panelContent .board32-grid,body.board33-focus #panelContent .board32-grid{display:grid;grid-template-columns:minmax(0,1fr)!important}
+ #panelContent .board32-column{display:none!important}
+ #panelContent .board32-column.board36-selected{display:flex!important}
+}
+
+/* V37: controles de restauração permanecem visíveis mesmo sem colunas */
+.board37-manage-btn,.board37-restore-btn{border:1px solid #478bc4;background:#142e4c;color:#f2f8ff;border-radius:9px;padding:10px 13px;cursor:pointer;font-weight:700}
+.board37-restore-btn{background:#155f46;border-color:#2cae7c}
+.board37-restore-btn:disabled{opacity:.48;cursor:default}
+.board37-manager{padding:12px;margin:12px 0;border:1px solid #365d83;border-radius:12px;background:#101f33;color:#e9f4ff}
+.board37-manager[hidden]{display:none!important}
+.board37-options{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
+.board37-option{border:1px solid #567ea5;background:#1c3552;color:#fff;border-radius:8px;padding:9px 12px;cursor:pointer}
+@media(max-width:650px){.board33-tools{flex-wrap:wrap}.board37-manage-btn,.board37-restore-btn{flex:1;min-width:130px}}
+</style></head><body><header class="top"><div class="wrap topin"><div class="brand"><img src="logo.jpg" alt="Logo BROOKLYNXXI"><span>BROOKLYNXXI ✂️</span></div><div class="nav"><button onclick="go('home')">Início</button><button onclick="go('book')">Agendar</button><button onclick="go('login')">Entrar</button></div></div></header>
+<main><div id="home" class="view active"><section class="hero"><div class="wrap hero-inner"><img class="hero-logo" src="logo.jpg" alt="Logo Brooklyn XXI"><div><div class="eyebrow">— BARBEARIA —</div><h1>BROOKLYNXXI</h1><p class="lead">Agende seu horário de forma rápida e prática!</p><div class="actions"><button class="primary" onclick="go('book')"><span class="calendar-glyph">▦</span> Agendar Horário <span aria-hidden="true">➜</span></button><button class="secondary" onclick="go('track')">Consultar agendamento</button></div></div></div></section><div class="wrap home-panel"><section class="section"><h2>Explore nossa barbearia</h2><div class="cards home-links"><button class="card" onclick="go('barbers')"><span class="emoji">👤</span><strong>Nossos barbeiros</strong></button><button class="card" onclick="go('services')"><span class="emoji">✂️</span><strong>Serviços e preços</strong></button><button class="card" onclick="go('cuts')"><span class="emoji">📸</span><strong>Trabalhos</strong></button><button class="card" onclick="openLocation()"><img class="tile-icon" src="maps.svg" alt=""><strong>Localização</strong></button><button class="card" onclick="openWhats()"><img class="tile-icon" src="whatsapp.svg" alt=""><strong>Contato</strong></button><button class="card" onclick="openInstallGuide()"><span class="emoji" aria-hidden="true">📲</span><strong>Baixe o app</strong></button></div></section><div class="notice"><b><span class="notice-icon">◖))</span> Aviso da Barbearia</b><p id="publicNotice"></p></div><div class="social-links"><a id="homeInsta" href="#" target="_blank" rel="noopener"><img class="social-icon" src="instagram.svg" alt="">Instagram</a><a id="homeWhats" href="#" target="_blank" rel="noopener"><img class="social-icon" src="whatsapp.svg" alt="">WhatsApp</a><a id="homeMaps" href="#" target="_blank" rel="noopener"><img class="social-icon" src="maps.svg" alt="">Como chegar</a></div></div></div></div>
+<div id="cuts" class="view"><div class="wrap section"><button class="back" onclick="go('home')">← Voltar ao início</button><h2>✂️ Galeria de cortes</h2><p class="muted">Conheça alguns cortes realizados na BROOKLYNXXI.</p><div id="publicCuts" class="cuts-grid"><p class="muted">Carregando fotos...</p></div></div></div>
+<div id="book" class="view"><div class="wrap section"><button class="back" onclick="go('home')">← Voltar ao início</button><h2>Agendar horário</h2><div class="steps" id="steps"></div><div id="wizard"></div></div></div>
+<div id="barbers" class="view"><div class="wrap section"><button class="back" onclick="go('home')">← Voltar</button><h2>Nossos barbeiros</h2><div class="choices" id="barberList"></div></div></div>
+<div id="services" class="view"><div class="wrap section"><button class="back" onclick="go('home')">← Voltar</button><h2>Serviços e preços</h2><div class="choices" id="serviceList"></div></div></div>
+<div id="track" class="view"><div class="wrap section"><button class="back" onclick="go('home')">← Voltar</button><h2>Consultar agendamento</h2><div class="box"><div class="field"><label>Primeiro nome informado no agendamento</label><input id="trackName" type="text" autocomplete="given-name" maxlength="100" placeholder="Ex.: João"></div><div class="field"><label>WhatsApp informado no agendamento</label><input id="trackPhone" type="tel" inputmode="tel" autocomplete="tel" placeholder="DDD + número (ex.: 11999999999)"></div><p class="hint">Informe seu primeiro nome e o mesmo WhatsApp da reserva. Maiúsculas, minúsculas e acentos não fazem diferença.</p><button class="primary" onclick="trackBooking()">Consultar status</button><div id="trackResult"></div></div></div></div>
+<div id="login" class="view"><div class="wrap section"><div class="box login"><h2>🔐 Acesso da equipe</h2><p class="muted">Área exclusiva do administrador e barbeiros.</p><div class="field"><label>E-mail cadastrado no Supabase</label><input id="loginUser" type="email" autocomplete="username" placeholder="seuemail@exemplo.com"></div><div class="field"><label>Senha do Supabase</label><input id="loginPass" type="password" autocomplete="current-password" placeholder="Digite a senha"></div><button class="primary" id="loginButton" onclick="login()">Entrar no painel</button><p class="hint">Acesso autenticado pelo Supabase. Agendamentos sincronizados com o banco; mensagens do WhatsApp são enviadas manualmente.</p></div></div></div>
+<div id="activate" class="view"><div class="wrap section"><div class="box login"><div class="eyebrow">ACESSO À EQUIPE</div><h2>🔐 Criar minha senha</h2><p class="muted" id="activateIntro">Validando seu convite...</p><form id="activateForm" onsubmit="saveInvitePassword(event)" class="hidden"><div class="field"><label for="newTeamPassword">Nova senha</label><input id="newTeamPassword" type="password" autocomplete="new-password" minlength="8" maxlength="128" required placeholder="Mínimo de 8 caracteres"></div><div class="field"><label for="confirmTeamPassword">Confirmar nova senha</label><input id="confirmTeamPassword" type="password" autocomplete="new-password" minlength="8" maxlength="128" required placeholder="Repita a senha"></div><button id="activateButton" class="primary" type="submit">Salvar senha e entrar</button></form><p class="hint" id="activateStatus" role="status"></p><button class="back" onclick="cancelInviteActivation()">Voltar ao início</button></div></div></div>
+<div id="panel" class="view"><div class="wrap section"><div class="dayline" style="justify-content:space-between"><div><div class="eyebrow">PAINEL DA EQUIPE</div><h2 id="panelTitle" style="margin:6px 0">Minha agenda</h2></div><button class="secondary" onclick="logout()">Sair</button></div><div class="notice" style="margin-top:15px;padding:12px"><b>WhatsApp manual:</b> após aprovar ou recusar, toque no número do cliente para abrir a mensagem pronta. Confira e pressione Enviar no WhatsApp.</div><div class="statgrid" id="stats"></div><div class="toolbar" id="panelTabs"></div><div id="panelContent"></div></div></div></main>
+<footer class="wrap foot"><span>© BROOKLYNXXI • Barbearia</span><span>Agende seu horário com praticidade ✂️</span><div style="display:none"><a href="#" id="insta" target="_blank" rel="noopener">Instagram</a><a href="#" id="whats" target="_blank" rel="noopener">WhatsApp</a><a href="#" id="maps" target="_blank" rel="noopener">Como chegar</a></div></footer><div class="install-overlay" id="installOverlay" hidden onclick="if(event.target===this)closeInstallGuide()"><div class="install-dialog" role="dialog" aria-modal="true" aria-labelledby="installTitle"><button class="install-close" type="button" aria-label="Fechar instruções" onclick="closeInstallGuide()">✕</button><section class="install-guide" id="instalar-app" aria-labelledby="installTitle"><div class="install-head"><img src="icons/icon-192.png" alt="Ícone do aplicativo BROOKLYNXXI"><div><h2 id="installTitle">📲 Baixe o app</h2><p>Acesse a barbearia direto pela tela inicial, como um aplicativo.</p></div></div><div class="install-platforms"><div class="install-platform"><h3>🍎 iPhone (Safari)</h3><ol><li>Abra este site no <strong>Safari</strong>.</li><li>Toque em <strong>Compartilhar</strong> (quadrado com seta para cima).</li><li>Escolha <strong>Adicionar à Tela de Início</strong>.</li><li>Confirme em <strong>Adicionar</strong>.</li></ol></div><div class="install-platform"><h3>🤖 Android (Chrome)</h3><ol><li>Abra este site no <strong>Google Chrome</strong>.</li><li>Toque nos <strong>três pontos ⋮</strong> do navegador.</li><li>Escolha <strong>Instalar app</strong> ou <strong>Adicionar à tela inicial</strong>.</li><li>Confirme a instalação.</li></ol></div></div><div class="install-cta"><button id="installAppButton" type="button" hidden>⬇ Instalar aplicativo</button></div><p class="install-hint" id="installHelp">A instalação cria um atalho com o ícone da barbearia. É necessária conexão com a internet para usar agendamentos e outras funções online.</p></section></div></div><div id="toast" class="toast hidden"></div>
+<script>
+const KEY='brooklynxxi_demo_v1';const seed={settings:{notice:'Confira nossos horários e agende seu corte com seu barbeiro de preferência!',phone:'',instagram:'',address:'',open:'09:00',close:'19:00',interval:30},barbers:[{id:'b1',name:'Lucas',phone:'',active:true},{id:'b2',name:'Rafael',phone:'',active:true}],services:[{id:'s1',name:'Corte de cabelo',price:40,duration:30},{id:'s2',name:'Barba',price:25,duration:30},{id:'s3',name:'Corte + Barba',price:60,duration:60}],bookings:[]};let db=load(),current=null,tab='agenda',stage=0,booking={};function load(){try{let d=JSON.parse(localStorage.getItem(KEY));return d&&d.settings&&d.barbers&&d.services&&d.bookings?d:structuredClone(seed)}catch{return structuredClone(seed)}}function save(){localStorage.setItem(KEY,JSON.stringify(db))}function esc(s){return String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}function digits(s){return String(s||'').replace(/\D/g,'')}function toast(s){let e=document.getElementById('toast');e.textContent=s;e.classList.remove('hidden');setTimeout(()=>e.classList.add('hidden'),3800)}function go(v){document.querySelectorAll('.view').forEach(e=>e.classList.toggle('active',e.id===v));window.scrollTo(0,0);if(v==='home')renderHome();if(v==='book'){stage=0;booking={};renderWizard()}if(v==='barbers')renderBarbers();if(v==='services')renderServices();if(v==='panel')renderPanel()}function safeExternalLink(value){try{const u=new URL(String(value||'').trim());return ['https:','http:'].includes(u.protocol)?u.href:'#'}catch{return '#'}}
+function renderHome(){document.getElementById('publicNotice').textContent=db.settings.notice;const links={insta:safeExternalLink(db.settings.instagram),whats:safeExternalLink(db.settings.phone),maps:safeExternalLink(db.settings.address)};for(const [id,url] of Object.entries(links)){document.getElementById(id).href=url;document.getElementById(({insta:'homeInsta',whats:'homeWhats',maps:'homeMaps'})[id]).href=url}}
+function openWhats(){const url=safeExternalLink(db.settings.phone);if(url==='#')return toast('Link do WhatsApp ainda não configurado.');window.open(url,'_blank','noopener,noreferrer')}
+function openLocation(){const url=safeExternalLink(db.settings.address);if(url==='#')return toast('Link da localização ainda não configurado.');window.open(url,'_blank','noopener,noreferrer')}
+function renderBarbers(){document.getElementById('barberList').innerHTML=db.barbers.filter(b=>b.active).map(b=>`<button class="choice" onclick="go('book');booking.barber='${b.id}';stage=1;renderWizard()"><b>💈 ${esc(b.name)}</b><small>Escolher profissional →</small></button>`).join('')||'<p>Nenhum barbeiro cadastrado.</p>'}function renderServices(){document.getElementById('serviceList').innerHTML=db.services.map(s=>`<div class="choice"><b>${esc(s.name)}</b><small>R$ ${Number(s.price).toFixed(2).replace('.',',')} • ${s.duration} minutos</small></div>`).join('')}
+function dayStr(d){let y=d.getFullYear(),m=String(d.getMonth()+1).padStart(2,'0'),a=String(d.getDate()).padStart(2,'0');return `${y}-${m}-${a}`}function displayDate(d){if(!d)return '';let [y,m,a]=d.split('-');return `${a}/${m}/${y}`}function minutes(h){let [a,b]=h.split(':').map(Number);return a*60+b}function fmtMin(n){return String(Math.floor(n/60)).padStart(2,'0')+':'+String(n%60).padStart(2,'0')}function getService(id){return db.services.find(s=>s.id===id)}function getBarber(id){return db.barbers.find(b=>b.id===id)}function slots(barber,date,service,exclude){let s=getService(service),dur=s?.duration||db.settings.interval,step=Math.max(10,Number(db.settings.interval)||30),start=minutes(db.settings.open),end=minutes(db.settings.close),now=new Date();let a=[];for(let t=start;t+dur<=end;t+=step){let time=fmtMin(t),dt=new Date(date+'T'+time+':00'),busy=db.bookings.some(b=>b.id!==exclude&&b.barber===barber&&b.date===date&&['pending','confirmed'].includes(b.status)&&t<minutes(b.time)+(getService(b.service)?.duration||step)&&t+dur>minutes(b.time));a.push({time,busy:busy||dt<=now})}return a}
+function renderWizard(){let names=['Barbeiro','Serviço','Data e hora','Seus dados'];document.getElementById('steps').innerHTML=names.map((n,i)=>`<div class="step ${i===stage?'on':''}">${i+1}. ${n}</div>`).join('');let el=document.getElementById('wizard');if(stage===0){el.innerHTML=`<div class="box"><h2>Escolha seu barbeiro</h2><p class="muted">Selecione o profissional de sua preferência.</p><div class="choices">${db.barbers.filter(b=>b.active).map(b=>`<button class="choice ${booking.barber===b.id?'selected':''}" onclick="booking.barber='${b.id}';renderWizard()"><span class="barber-avatar">✂</span><span class="barber-name"><b>${esc(b.name)}</b><small>Profissional disponível</small></span><span class="choice-check">${booking.barber===b.id?'✓':'○'}</span></button>`).join('')}</div><div class="actions"><button class="primary" ${!booking.barber?'disabled':''} onclick="stage=1;renderWizard()">Próximo →</button></div></div>`}else if(stage===1){el.innerHTML=`<div class="box"><h2>Escolha o serviço</h2><div class="choices">${db.services.map(s=>`<button class="choice ${booking.service===s.id?'selected':''}" onclick="booking.service='${s.id}';renderWizard()"><b>${esc(s.name)}</b><small>R$ ${Number(s.price).toFixed(2).replace('.',',')} • ${s.duration} min</small></button>`).join('')}</div><div class="actions"><button class="secondary" onclick="stage=0;renderWizard()">← Voltar</button><button class="primary" ${!booking.service?'disabled':''} onclick="stage=2;booking.date=booking.date||dayStr(new Date());renderWizard()">Próximo →</button></div></div>`}else if(stage===2){let date=booking.date||dayStr(new Date());el.innerHTML=`<div class="box"><h2>Selecione data e horário</h2><p class="muted">Horários indisponíveis ficam bloqueados. Solicitações pendentes também ocupam o horário.</p><div class="field"><label>Data do atendimento</label><input type="date" min="${dayStr(new Date())}" value="${date}" onchange="booking.date=this.value;booking.time='';renderWizard()"></div><h3>Horários</h3><div class="slots">${slots(booking.barber,date,booking.service).map(s=>`<button class="slot ${booking.time===s.time?'selected':''}" ${s.busy?'disabled':''} onclick="booking.time='${s.time}';renderWizard()">${s.time}</button>`).join('')}</div><div class="actions"><button class="secondary" onclick="stage=1;renderWizard()">← Voltar</button><button class="primary" ${!booking.time?'disabled':''} onclick="stage=3;renderWizard()">Próximo →</button></div></div>`}else{el.innerHTML=`<div class="box"><h2>Finalize sua solicitação</h2><p class="muted">${esc(getBarber(booking.barber)?.name)} • ${esc(getService(booking.service)?.name)} • ${displayDate(booking.date)} às ${booking.time}</p><form onsubmit="submitCustomer(event)"><div class="field"><label>Nome completo</label><input id="customerName" required maxlength="80" placeholder="Seu nome"></div><div class="field"><label>WhatsApp com DDD</label><input id="customerPhone" required inputmode="tel" placeholder="(11) 99999-9999"></div><label class="hint"><input id="customerConsent" type="checkbox" required> Autorizo contato sobre meu agendamento pelo número informado.</label><div class="actions"><button type="button" class="secondary" onclick="stage=2;renderWizard()">← Voltar</button><button class="primary">Solicitar agendamento</button></div></form></div>`}}
+function submitCustomer(e){e.preventDefault();let name=document.getElementById('customerName').value.trim(),phone=digits(document.getElementById('customerPhone').value);if(name.length<2||phone.length<10||phone.length>13)return toast('Confira o nome e WhatsApp.');if(slots(booking.barber,booking.date,booking.service).find(s=>s.time===booking.time)?.busy)return toast('Este horário não está mais disponível.');let id='BK'+Math.floor(100000+Math.random()*900000);db.bookings.push({...booking,id,name,phone,status:'pending',source:'cliente',created:Date.now()});save();document.getElementById('wizard').innerHTML=`<div class="box"><h2>⏳ Solicitação recebida!</h2><p>Seu agendamento está <b>pendente de aprovação</b> pelo barbeiro.</p><p>Guarde seu código: <b>${id}</b></p><p class="muted">Acompanhe o status usando seu código e telefone. WhatsApp automático ainda não está habilitado.</p><button class="primary" onclick="go('home')">Voltar ao início</button></div>`;document.getElementById('steps').innerHTML='';toast('Solicitação registrada neste dispositivo.')}
+function trackBooking(){toast('Aguarde a conexão com o Supabase para consultar seu agendamento.')}function statusLabel(s){return {pending:'Pendente',confirmed:'Confirmado',cancelled:'Cancelado',rejected:'Recusado',expired:'Expirado',finished:'Finalizado'}[s]||s}
+const SUPABASE_URL='https://tsspjxgdmatrrjvdazdq.supabase.co';
+const SUPABASE_KEY='sb_publishable_O_OWoYy_10s8k6CJ3eKiNg_B4Qr-QEJ';
+let authToken=null;let brooklynRefreshToken=null;let brooklynExpiry=0;
+async function supaRequest(path,method='GET',payload=null,token=null){
+ const r=await fetch(SUPABASE_URL+path,{method,headers:{'apikey':SUPABASE_KEY,'Content-Type':'application/json',...(token?{'Authorization':'Bearer '+token}:{})},...(payload?{body:JSON.stringify(payload)}:{})});
+ let result=await r.json().catch(()=>({}));if(!r.ok)throw Error(result.msg||result.error_description||result.message||'Erro HTTP '+r.status);return result;
+}
+async function login(){
+ const email=document.getElementById('loginUser').value.trim(),password=document.getElementById('loginPass').value,button=document.getElementById('loginButton');
+ if(!email||!password)return toast('Informe e-mail e senha.');button.disabled=true;button.textContent='Verificando...';
+ try{
+  const session=await supaRequest('/auth/v1/token?grant_type=password','POST',{email,password});
+  if(!session.access_token)throw Error('Não foi possível obter a sessão.');
+  const role=await supaRequest('/rest/v1/rpc/brooklynxxi_me','POST',{},session.access_token);
+  if(!role||!['admin','barber'].includes(role.role))throw Error('Este usuário não possui acesso à equipe da barbearia.');
+  authToken=session.access_token;
+  current=role.role==='admin'?{role:'admin',id:role.profissional_id||null,name:role.nome||'Administrador'}:{role:'barber',id:role.profissional_id,name:role.nome};
+  tab='agenda';go('panel');toast('Login autenticado. Agenda ainda em modo local de testes.');
+ }catch(err){authToken=null;current=null;toast('Falha no login: '+err.message)}finally{button.disabled=false;button.textContent='Entrar no painel';document.getElementById('loginPass').value=''}
+}
+function logout(){authToken=null;brooklynRefreshToken=null;brooklynExpiry=0;localStorage.removeItem('brooklynxxi_session_v36');sessionStorage.removeItem('brooklynxxi_session_v30');current=null;go('home')}
+let selectedAgendaDate=dayStr(new Date());
+function nextBookingId(list){const now=Date.now();return list.filter(b=>['pending','confirmed'].includes(b.status)&&new Date(b.date+'T'+b.time+':00').getTime()>=now).sort((a,b)=>(a.date+a.time).localeCompare(b.date+b.time))[0]?.id||null;}
+function agendaMonth(delta){const [y,m]=selectedAgendaDate.split('-').map(Number);const d=new Date(y,m-1+delta,1);selectedAgendaDate=dayStr(d);renderPanel()}
+function selectAgendaDay(date){selectedAgendaDate=date;renderPanel()}
+function calendarHTML(items){
+ const [year,month]=selectedAgendaDate.split('-').map(Number),first=new Date(year,month-1,1),last=new Date(year,month,0).getDate(),offset=(first.getDay()+6)%7;
+ const countByDay={};for(const b of items){if(b.date?.slice(0,7)===selectedAgendaDate.slice(0,7))countByDay[b.date]=(countByDay[b.date]||0)+1}
+ let cells=Array.from({length:offset},()=>'<span class="calendar-day empty"></span>');
+ for(let d=1;d<=last;d++){const date=`${year}-${String(month).padStart(2,'0')}-${String(d).padStart(2,'0')}`;cells.push(`<button type="button" class="calendar-day ${date===selectedAgendaDate?'selected':''} ${date===dayStr(new Date())?'today':''}" onclick="selectAgendaDay('${date}')" aria-label="${displayDate(date)}${countByDay[date]?' - '+countByDay[date]+' agendamentos':''}">${d}${countByDay[date]?'<span class="dot"></span>':''}</button>`)}
+ const label=first.toLocaleDateString('pt-BR',{month:'long',year:'numeric'});
+ return `<div class="calendar-head"><button class="secondary tiny" onclick="agendaMonth(-1)" aria-label="Mês anterior">◀</button><b style="text-transform:capitalize">${esc(label)}</b><button class="secondary tiny" onclick="agendaMonth(1)" aria-label="Próximo mês">▶</button><button class="secondary tiny" onclick="selectAgendaDay(dayStr(new Date()))">Hoje</button></div><div class="calendar-week">${['Seg','Ter','Qua','Qui','Sex','Sáb','Dom'].map(x=>'<span>'+x+'</span>').join('')}</div><div class="calendar-grid">${cells.join('')}</div><p class="hint">Os pontos indicam dias com agendamentos. Toque em um dia para ver somente os horários daquele dia.</p>`;
+}
+function bookingWhatsUrl(b){
+ let phone=digits(b.phone);if(!phone.startsWith('55'))phone='55'+phone;
+ const barber=getBarber(b.barber)?.name||'seu barbeiro',service=getService(b.service)?.name||'serviço solicitado';
+ const intro=`Olá, ${b.name}! 💈\nAqui é da BROOKLYNXXI.`;
+ const details=`\nServiço: ${service}\nProfissional: ${barber}\nData: ${displayDate(b.date)}\nHorário: ${b.time}`;
+ let message;
+ if(b.status==='confirmed')message=`${intro}\nSeu agendamento foi CONFIRMADO! ✅${details}\nAguardamos você!`;
+ else if(b.status==='rejected')message=`${intro}\nInfelizmente não foi possível confirmar seu agendamento. ❌${details}\nEntre em contato para escolher outro horário.`;
+ else if(b.status==='expired')message=`${intro}\nSua solicitação expirou sem confirmação. Gostaria de solicitar um novo horário?`;
+ else if(b.status==='finished')message=`${intro}\nObrigado pela preferência!`;
+ else if(b.status==='cancelled')message=`${intro}\nSeu agendamento foi CANCELADO.${details}\nEntre em contato se desejar reagendar.`;
+ else message=`${intro}\nRecebemos sua solicitação de agendamento, que está aguardando aprovação. ⏳${details}\nAvisaremos quando for analisada.`;
+ return `https://wa.me/${phone}?text=${encodeURIComponent(message)}`;
+}
+function allowed(b){return current?.role==='admin'||b.barber===current?.id}function renderPanel(){if(!current)return go('login');document.getElementById('panelTitle').textContent=current.role==='admin'?'Painel do administrador':'Olá, '+current.name;let items=db.bookings.filter(allowed),pending=items.filter(x=>x.status==='pending').length,confirmed=items.filter(x=>x.status==='confirmed').length;document.getElementById('stats').innerHTML=`<button type="button" class="stat stat-click ${tab==='pending'?'stat-selected':''}" onclick="tab='pending';renderPanel()">Pendentes<b>${pending}</b></button><button type="button" class="stat stat-click ${tab==='confirmed'?'stat-selected':''}" onclick="tab='confirmed';renderPanel()">Confirmados<b>${confirmed}</b></button><button type="button" class="stat stat-click ${tab==='agenda'?'stat-selected':''}" onclick="tab='agenda';renderPanel()">Agenda<b>${pending+confirmed}</b></button>`;let tabs=[['agenda','Agenda'],['pending','Pendentes'],['confirmed','Confirmados'],['history','Histórico'],['new','+ Agendar'],['push-settings','⚙️ Notificações'],...(current.role==='admin'?[['barbers','Barbeiros'],['services','Serviços'],['gallery','Trabalhos'],['users','Gerenciar usuários'],['settings','Configurações']]:[])];document.getElementById('panelTabs').innerHTML=tabs.map(([k,l])=>`<button class="secondary ${tab===k?'active':''}" onclick="tab='${k}';renderPanel()">${l}</button>`).join('');let c=document.getElementById('panelContent');if(tab==='agenda'||tab==='pending'||tab==='confirmed'||tab==='history'){
+ let list=items.filter(b=>tab==='pending'?b.status==='pending':tab==='confirmed'?b.status==='confirmed':tab==='history'?['rejected','cancelled','expired','finished'].includes(b.status):b.date===selectedAgendaDate&&['pending','confirmed'].includes(b.status)).sort((a,b)=>(a.date+a.time).localeCompare(b.date+b.time));
+ const nextId=nextBookingId(list);
+ const cal=tab==='agenda'?calendarHTML(items):'';
+ c.innerHTML=`<div class="box"><h3>${tab==='pending'?'Solicitações aguardando aprovação':tab==='confirmed'?'Agendamentos confirmados':tab==='history'?'Histórico de recusas e cancelamentos':'Calendário de agendamentos'}</h3>${cal}${tab==='agenda'?`<h3 style="margin-top:20px">Agendamentos de ${displayDate(selectedAgendaDate)}</h3>`:''}${list.length?list.map(b=>`<div data-status="${b.status}" class="booking ${b.id===nextId?'next-booking':''}"><div>${b.id===nextId?'<span class="next-label">⏰ Próximo atendimento</span>':''}<b>${esc(b.name)}</b> <span class="pill ${b.status}">${statusLabel(b.status)}</span><small>${displayDate(b.date)} • ${b.time} • ${esc(getService(b.service)?.name||'Serviço removido')}</small><small>💈 ${esc(getBarber(b.barber)?.name||'Profissional removido')} • ${b.source==='cliente'?'Solicitação online':'Agendado pela equipe'}</small><a class="whats-link" href="${esc(bookingWhatsUrl(b))}" target="_blank" rel="noopener noreferrer" title="Abrir WhatsApp com mensagem pronta">📱 ${esc(b.phone)} · Abrir WhatsApp</a></div><div class="actions">${b.status==='pending'?`<button class="primary tiny" onclick="changeStatus('${b.id}','confirmed')">Aprovar</button><button class="secondary tiny" onclick="changeStatus('${b.id}','rejected')">Recusar</button>`:''}${['pending','confirmed'].includes(b.status)?`<button class="secondary tiny" onclick="changeStatus('${b.id}','cancelled')">Cancelar</button>`:''}${b.status==='rejected'?`<button class="primary tiny" onclick="restoreRejectedBooking('${b.id}')">↶ Reverter recusa</button>`:''}</div></div>`).join(''):'<p class="muted">Nenhum agendamento encontrado para este período.</p>'}</div>`
+}else if(tab==='new'){let bs=current.role==='admin'?db.barbers.filter(x=>x.active):db.barbers.filter(x=>x.id===current.id);c.innerHTML=`<div class="box"><h3>Novo agendamento manual</h3><p class="muted">Agendamentos feitos pela equipe ficam confirmados imediatamente. Depois, toque no número para avisar pelo WhatsApp.</p><form onsubmit="manualBook(event)"><div class="formgrid"><div class="field"><label>Nome do cliente</label><input id="manualName" required maxlength="80"></div><div class="field"><label>WhatsApp do cliente</label><input id="manualPhone" required inputmode="tel" placeholder="DDD + número"></div><div class="field"><label>Barbeiro</label><select id="manualBarber" onchange="refreshManualSlots()">${bs.map(b=>`<option value="${b.id}">${esc(b.name)}</option>`).join('')}</select></div><div class="field"><label>Serviço</label><select id="manualService" onchange="refreshManualSlots()">${db.services.map(s=>`<option value="${s.id}">${esc(s.name)} (${s.duration} min)</option>`).join('')}</select></div><div class="field"><label>Data</label><input id="manualDate" type="date" min="${dayStr(new Date())}" value="${dayStr(new Date())}" onchange="refreshManualSlots()" required></div><div class="field"><label>Horário disponível</label><select id="manualTime" required></select></div></div><label class="hint"><input type="checkbox" required> O cliente autorizou contato pelo número informado.</label><div class="actions"><button class="primary">Confirmar agendamento</button></div></form><p class="hint">Para avisar o cliente, abra o WhatsApp pelo link do agendamento e envie manualmente.</p></div>`;refreshManualSlots()}else if(tab==='barbers'){c.innerHTML=`<div class="box"><h3>Gerenciar barbeiros</h3>${db.barbers.map(b=>`<div class="booking"><div><b>${esc(b.name)}</b><small>${esc(b.phone||'Sem telefone')} • ${b.active?'Ativo':'Inativo'}</small></div><button class="secondary tiny" onclick="toggleBarber('${b.id}')">${b.active?'Desativar':'Ativar'}</button></div>`).join('')}<form onsubmit="addBarber(event)"><div class="formgrid"><div class="field"><label>Nome do barbeiro</label><input id="newBarberName" required></div><div class="field"><label>WhatsApp do barbeiro</label><input id="newBarberPhone" inputmode="tel" placeholder="DDD + número"></div></div><button class="primary">+ Adicionar barbeiro</button></form><p class="hint">Cada barbeiro precisa ter usuário no Supabase Auth vinculado ao seu cadastro.</p></div>`}else if(tab==='services'){c.innerHTML=`<div class="box"><h3>Serviços</h3>${db.services.map(s=>`<div class="booking"><div><b>${esc(s.name)}</b><small>R$ ${Number(s.price).toFixed(2)} • ${s.duration} min</small></div><button class="secondary tiny" onclick="removeService('${s.id}')">Remover</button></div>`).join('')}<form onsubmit="addService(event)"><div class="formgrid"><div class="field"><label>Nome do serviço</label><input id="serviceName" required></div><div class="field"><label>Preço (R$)</label><input id="servicePrice" type="number" min="0" step="0.01" required></div><div class="field"><label>Duração (minutos)</label><input id="serviceDuration" type="number" min="10" max="360" step="5" required></div></div><button class="primary">+ Adicionar serviço</button></form></div>`}else if(tab==='gallery'){renderAdminGallery(c)}else if(tab==='users'){renderUserManagement(c)}else if(tab==='settings'){let s=db.settings;c.innerHTML=`<div class="box"><h3>Configurações da barbearia</h3><form onsubmit="saveSettings(event)"><div class="field"><label>Mensagem de aviso da página inicial</label><textarea id="setNotice" rows="3">${esc(s.notice)}</textarea></div><div class="formgrid"><div class="field"><label>Link do WhatsApp da loja</label><input id="setPhone" type="url" value="${esc(s.phone)}" placeholder="https://wa.me/5511999999999"></div><div class="field"><label>Link do Instagram</label><input id="setInsta" type="url" value="${esc(s.instagram)}" placeholder="https://www.instagram.com/brooklynxxi/"></div><div class="field"><label>Link da localização (Google Maps)</label><input id="setAddress" type="url" value="${esc(s.address)}" placeholder="https://maps.app.goo.gl/..."></div><div class="field"><label>Intervalo entre inícios de horários (min)</label><input id="setInterval" type="number" min="10" max="120" step="5" value="${s.interval}"></div><div class="field"><label>Abertura</label><input id="setOpen" type="time" value="${s.open}"></div><div class="field"><label>Fechamento</label><input id="setClose" type="time" value="${s.close}"></div></div><button class="primary">Salvar configurações</button></form><p class="hint">Versão inicial: um horário geral para todos os barbeiros. Horários individuais, folgas e pausas serão adicionados na integração completa.</p></div>`}}
+function refreshManualSlots(){let b=document.getElementById('manualBarber'),d=document.getElementById('manualDate'),s=document.getElementById('manualService'),t=document.getElementById('manualTime');if(!b||!d||!s||!t)return;t.innerHTML=slots(b.value,d.value,s.value).filter(x=>!x.busy).map(x=>`<option value="${x.time}">${x.time}</option>`).join('');if(!t.innerHTML)t.innerHTML='<option value="">Sem horários disponíveis</option>'}function manualBook(e){e.preventDefault();let b=document.getElementById('manualBarber').value,s=document.getElementById('manualService').value,d=document.getElementById('manualDate').value,t=document.getElementById('manualTime').value,n=document.getElementById('manualName').value.trim(),p=digits(document.getElementById('manualPhone').value);if(!t||!n||p.length<10||p.length>13)return toast('Preencha os dados e escolha um horário livre.');if(slots(b,d,s).find(x=>x.time===t)?.busy)return toast('Horário indisponível.');db.bookings.push({id:'BK'+Math.floor(100000+Math.random()*900000),barber:b,service:s,date:d,time:t,name:n,phone:p,status:'confirmed',source:'equipe',created:Date.now()});save();tab='agenda';renderPanel();toast('Agendamento confirmado localmente. WhatsApp não enviado.')}function changeStatus(id,status){let b=db.bookings.find(x=>x.id===id);if(!b||!allowed(b))return;if(!confirm('Confirma a alteração para '+statusLabel(status)+'?'))return;b.status=status;save();renderPanel();toast('Status atualizado. WhatsApp não enviado nesta demonstração.')}function toggleBarber(id){if(current?.role!=='admin')return;let b=getBarber(id);b.active=!b.active;save();renderPanel()}function addBarber(e){e.preventDefault();if(current?.role!=='admin')return;let n=document.getElementById('newBarberName').value.trim(),p=digits(document.getElementById('newBarberPhone').value);if(n.length<2)return;let first=n.split(' ')[0].toLowerCase();if(db.barbers.some(b=>b.name.split(' ')[0].toLowerCase()===first))return toast('Use um primeiro nome diferente para o login de demonstração.');db.barbers.push({id:'b'+Date.now(),name:n,phone:p,active:true});save();renderPanel();toast('Barbeiro adicionado.')}function addService(e){e.preventDefault();if(current?.role!=='admin')return;let name=document.getElementById('serviceName').value.trim(),price=Number(document.getElementById('servicePrice').value),duration=Number(document.getElementById('serviceDuration').value);if(!name||!Number.isFinite(price)||duration<10)return;db.services.push({id:'s'+Date.now(),name,price,duration});save();renderPanel();toast('Serviço adicionado.')}function removeService(id){if(current?.role!=='admin')return;if(db.bookings.some(b=>b.service===id&&['pending','confirmed'].includes(b.status)))return toast('Este serviço tem agendamentos ativos.');if(!confirm('Remover serviço?'))return;db.services=db.services.filter(s=>s.id!==id);save();renderPanel()}function saveSettings(e){e.preventDefault();if(current?.role!=='admin')return;let s=db.settings;s.notice=document.getElementById('setNotice').value;s.phone=document.getElementById('setPhone').value;s.instagram=document.getElementById('setInsta').value;s.address=document.getElementById('setAddress').value;s.interval=Number(document.getElementById('setInterval').value);s.open=document.getElementById('setOpen').value;s.close=document.getElementById('setClose').value;if(minutes(s.open)>=minutes(s.close)||s.interval<10)return toast('Confira os horários de funcionamento.');save();renderPanel();toast('Configurações salvas neste dispositivo.')}renderHome();
+
+/* V6: camada de persistência real. A interface visual da V4 foi preservada. */
+let ocupadosRemotos=[];
+const rpc=(name,data={},secure=false)=>supaRequest('/rest/v1/rpc/'+name,'POST',data,secure?authToken:null);
+function cleanPhone(v){return digits(v)}
+function asISO(d,t){return new Date(d+'T'+t+':00-03:00').toISOString()}
+async function syncCatalog(){
+ const r=await rpc('brooklynxxi_catalogo');
+ if(!r||!r.settings)throw Error('Catálogo não disponível. Execute 02_AGENDAMENTOS.sql.');
+ const c=r.settings;
+ db.settings={notice:c.aviso||'',phone:c.telefone||'',instagram:c.instagram||'',address:c.endereco||'',open:(c.abertura||'09:00').slice(0,5),close:(c.fechamento||'19:00').slice(0,5),interval:c.intervalo_min||30};
+ db.barbers=(r.barbers||[]).map(b=>({id:b.id,name:b.name,active:b.active,photo:b.photo,phone:'',duration:Number(b.duration)||30}));
+ db.services=(r.services||[]).map(x=>({id:x.id,name:x.name,price:Number(x.price),duration:x.duration}));
+ ocupadosRemotos=r.occupied||[];
+ renderHome();
+}
+async function syncAgenda(){if(!authToken)return;db.bookings=await rpc('brooklynxxi_agenda',{},true);renderPanel()}
+const originalSlots=slots;
+slots=function(barber,date,service,exclude){
+ let arr=originalSlots(barber,date,service,exclude),dur=getService(service)?.duration||db.settings.interval;
+ for(const x of arr){let t=minutes(x.time);if(ocupadosRemotos.some(o=>o.barber===barber&&o.date===date&&t<minutes(o.time)+Number(o.duration)&&t+dur>minutes(o.time)))x.busy=true}
+ return arr;
+};
+login=async function(){
+ const email=document.getElementById('loginUser').value.trim(),password=document.getElementById('loginPass').value,button=document.getElementById('loginButton');
+ if(!email||!password)return toast('Informe e-mail e senha.');button.disabled=true;button.textContent='Verificando...';
+ try{
+  const session=await supaRequest('/auth/v1/token?grant_type=password','POST',{email,password});
+  const role=await supaRequest('/rest/v1/rpc/brooklynxxi_me','POST',{},session.access_token);
+  if(!role||!['admin','barber'].includes(role.role))throw Error('Seu usuário não está vinculado à equipe.');
+  authToken=session.access_token;brooklynRefreshToken=session.refresh_token||null;brooklynExpiry=Date.now()+(Number(session.expires_in)||3600)*1000;
+  localStorage.setItem('brooklynxxi_session_v36',JSON.stringify({refresh:brooklynRefreshToken,access:authToken,expiry:brooklynExpiry}));
+  current=role.role==='admin'?{role:'admin',id:role.profissional_id||null,name:role.nome||'Administrador'}:{role:'barber',id:role.profissional_id,name:role.nome};
+  tab=new URLSearchParams(location.search).get('abrir')==='pendentes'?'pending':'agenda';await syncCatalog();await syncAgenda();go('panel');toast('Conectado ao Supabase.');
+ }catch(err){authToken=null;current=null;toast('Falha no login: '+err.message)}finally{button.disabled=false;button.textContent='Entrar no painel';document.getElementById('loginPass').value=''}
+};
+submitCustomer=async function(e){
+ e.preventDefault();const name=document.getElementById('customerName').value.trim(),phone=cleanPhone(document.getElementById('customerPhone').value);
+ if(name.length<2||phone.length<10||phone.length>13)return toast('Confira nome e WhatsApp.');
+ const btn=e.submitter;if(btn)btn.disabled=true;
+ try{
+  const r=await rpc('brooklynxxi_reservar',{p_profissional:booking.barber,p_servico:booking.service,p_nome:name,p_telefone:phone,p_inicio:asISO(booking.date,booking.time),p_consentimento:true,p_manual:false});
+  await syncCatalog();
+  const pushReady=typeof r?.id==='string'&&typeof r?.push_token==='string'&&/^[0-9a-f]{64}$/i.test(r.push_token);
+  // Credenciais mantidas somente nesta tela, não em URL, log ou localStorage.
+  window.__clientePushReserva=pushReady?{id:r.id,token:r.push_token}:null;
+  document.getElementById('wizard').innerHTML='<div class="box"><h2>⏳ Solicitação recebida!</h2><p>Seu horário está <b>pendente de aprovação</b>.</p><p>Para acompanhar o status, use <b>Consultar agendamento</b> com seu nome e WhatsApp.</p>'+(pushReady?'<div class="box" style="margin-top:14px"><h3>🔔 Receba avisos no celular</h3><p>Saiba quando o barbeiro confirmar ou recusar. O lembrete de 1 hora será disponibilizado após a ativação do serviço de lembretes.</p><p class="muted" id="clientePushStatus" role="status" aria-live="polite">Notificações opcionais. No iPhone, abra o app instalado na Tela de Início.</p><button class="primary" id="clientePushButton" type="button" onclick="ativarPushCliente()">Ativar notificações desta reserva</button></div>':'<p class="muted">Notificações indisponíveis para esta reserva no momento.</p>')+'<button class="secondary" style="margin-top:12px" onclick="window.__clientePushReserva=null;go(\'home\')">Voltar ao início</button></div>';
+  document.getElementById('steps').innerHTML='';toast('Solicitação registrada no Supabase.');
+ }catch(err){toast('Não foi possível reservar: '+err.message)}finally{if(btn)btn.disabled=false}
+};
+trackBooking=async function(){
+ const nome=document.getElementById('trackName').value.trim().split(/\s+/)[0]||'',phone=cleanPhone(document.getElementById('trackPhone').value),el=document.getElementById('trackResult');
+ if(nome.length<2||phone.length<10||phone.length>13)return toast('Informe o primeiro nome e WhatsApp com DDD.');
+ el.innerHTML='<p class="muted">Consultando...</p>';
+ try{
+  const rows=await rpc('brooklynxxi_consultar_cliente',{p_nome:nome,p_telefone:phone});
+  el.innerHTML=Array.isArray(rows)&&rows.length?rows.map(r=>'<div class="booking"><div><b>'+esc(r.servico||'Agendamento')+'</b><small>'+new Date(r.inicio).toLocaleString('pt-BR',{timeZone:'America/Sao_Paulo'})+' • '+esc(r.barbeiro||'Barbeiro')+'</small></div><span class="pill '+esc({pendente:'pending',confirmado:'confirmed',cancelado:'cancelled',recusado:'rejected'}[r.status]||'')+'">'+esc({pendente:'Pendente',confirmado:'Confirmado',cancelado:'Cancelado',recusado:'Recusado'}[r.status]||r.status)+'</span></div>').join(''):'<p class="muted">Nenhum agendamento encontrado para esse nome e WhatsApp.</p>';
+ }catch(err){el.innerHTML='';toast('Falha na consulta: '+err.message)}
+};
+manualBook=async function(e){
+ e.preventDefault();let b=document.getElementById('manualBarber').value,s=document.getElementById('manualService').value,d=document.getElementById('manualDate').value,t=document.getElementById('manualTime').value,n=document.getElementById('manualName').value.trim(),p=cleanPhone(document.getElementById('manualPhone').value);
+ if(!t||!n||p.length<10||p.length>13)return toast('Confira os dados.');
+ try{await rpc('brooklynxxi_reservar',{p_profissional:b,p_servico:s,p_nome:n,p_telefone:p,p_inicio:asISO(d,t),p_consentimento:true,p_manual:true},true);await syncCatalog();tab='agenda';await syncAgenda();toast('Agendamento confirmado. Clique no número do cliente para enviar o WhatsApp.')}catch(err){toast('Erro: '+err.message)}
+};
+changeStatus=async function(id,status){
+ if(!confirm('Confirma a alteração para '+statusLabel(status)+'?'))return;
+ try{await rpc('brooklynxxi_alterar_status',{p_id:id,p_status:{confirmed:'confirmado',rejected:'recusado',cancelled:'cancelado'}[status]},true);await syncCatalog();await syncAgenda();toast('Status atualizado. Clique no número do cliente para enviar a mensagem pelo WhatsApp.')}catch(err){toast(err.message)}
+};
+async function adminAction(action,data){await rpc('brooklynxxi_administrar',{p_acao:action,p_dados:data},true);await syncCatalog();await syncAgenda()}
+addBarber=async function(e){e.preventDefault();try{await adminAction('add_barber',{name:document.getElementById('newBarberName').value.trim(),phone:cleanPhone(document.getElementById('newBarberPhone').value)});toast('Barbeiro cadastrado. Vincule seu usuário do Auth para liberar login.')}catch(err){toast(err.message)}};
+toggleBarber=async function(id){try{await adminAction('toggle_barber',{id});toast('Profissional atualizado.')}catch(err){toast(err.message)}};
+addService=async function(e){e.preventDefault();try{await adminAction('add_service',{name:document.getElementById('serviceName').value.trim(),price:document.getElementById('servicePrice').value,duration:document.getElementById('serviceDuration').value});toast('Serviço cadastrado.')}catch(err){toast(err.message)}};
+removeService=async function(id){if(!confirm('Desativar serviço?'))return;try{await adminAction('remove_service',{id});toast('Serviço desativado.')}catch(err){toast(err.message)}};
+saveSettings=async function(e){e.preventDefault();for(const id of ['setPhone','setInsta','setAddress']){const value=document.getElementById(id).value.trim();if(value&&safeExternalLink(value)==='#')return toast('Informe links válidos começando com https://');}try{await adminAction('settings',{notice:document.getElementById('setNotice').value,phone:document.getElementById('setPhone').value,instagram:document.getElementById('setInsta').value,address:document.getElementById('setAddress').value,interval:document.getElementById('setInterval').value,open:document.getElementById('setOpen').value,close:document.getElementById('setClose').value});toast('Configurações salvas no Supabase.')}catch(err){toast(err.message)}};
+
+/* V9 - Galeria armazenada no Supabase Storage */
+let cutsCache=[];
+const CUTS_BUCKET='brooklynxxi-cortes';
+function cutUrl(path){return SUPABASE_URL+'/storage/v1/object/public/'+CUTS_BUCKET+'/'+encodeURIComponent(path)}
+function cutsMarkup(items,admin=false){return items.map(c=>admin?`<div class="cut-admin"><img src="${esc(cutUrl(c.path))}" alt="${esc(c.name)}" loading="lazy"><b>${esc(c.name)}</b><button class="secondary tiny" onclick="removeCut('${c.id}','${esc(c.path)}')">Excluir</button></div>`:`<div class="cut-card"><img src="${esc(cutUrl(c.path))}" alt="${esc(c.name)}" loading="lazy"><b>${esc(c.name)}</b></div>`).join('')||'<p class="muted">Nenhuma foto publicada ainda.</p>'}
+async function loadCuts(){cutsCache=await rpc('brooklynxxi_listar_cortes');const el=document.getElementById('publicCuts');if(el)el.innerHTML=cutsMarkup(cutsCache);if(tab==='gallery'&&current?.role==='admin'){const list=document.getElementById('adminCutsList');if(list)list.innerHTML=cutsMarkup(cutsCache,true)}}
+function renderAdminGallery(c){c.innerHTML=`<div class="box"><h3>📸 Trabalhos</h3><p class="muted">Escolha uma imagem e dê um nome ao corte. As fotos serão exibidas para todos os clientes.</p><form onsubmit="uploadCut(event)"><div class="field"><label>Nome do corte</label><input id="cutName" maxlength="80" placeholder="Ex.: Degradê americano" required></div><div class="field"><label>Foto do corte (JPG, PNG ou WEBP, até 5 MB)</label><input id="cutFile" type="file" accept="image/jpeg,image/png,image/webp" required></div><button id="cutUploadButton" class="primary">Publicar foto</button></form><h3 style="margin-top:24px">Fotos publicadas</h3><div id="adminCutsList">${cutsMarkup(cutsCache,true)}</div></div>`;loadCuts().catch(err=>toast('Galeria: '+err.message))}
+async function uploadCut(e){e.preventDefault();if(current?.role!=='admin'||!authToken)return toast('Acesso restrito ao administrador.');const name=document.getElementById('cutName').value.trim(),file=document.getElementById('cutFile').files[0],button=document.getElementById('cutUploadButton');if(name.length<2||name.length>80)return toast('Informe um nome de 2 a 80 caracteres.');if(!file||!['image/jpeg','image/png','image/webp'].includes(file.type)||file.size>5*1024*1024)return toast('Use uma imagem JPG, PNG ou WEBP de até 5 MB.');const ext={'image/jpeg':'jpg','image/png':'png','image/webp':'webp'}[file.type],path=crypto.randomUUID()+'.'+ext;button.disabled=true;button.textContent='Publicando...';try{const response=await fetch(SUPABASE_URL+'/storage/v1/object/'+CUTS_BUCKET+'/'+path,{method:'POST',headers:{apikey:SUPABASE_KEY,Authorization:'Bearer '+authToken,'Content-Type':file.type,'x-upsert':'false'},body:file});if(!response.ok){const detail=await response.json().catch(()=>({}));throw Error(detail.message||detail.error||'Erro ao enviar foto ('+response.status+')')}try{await rpc('brooklynxxi_adicionar_corte',{p_nome:name,p_path:path},true)}catch(err){await fetch(SUPABASE_URL+'/storage/v1/object/'+CUTS_BUCKET+'/'+path,{method:'DELETE',headers:{apikey:SUPABASE_KEY,Authorization:'Bearer '+authToken}}).catch(()=>{});throw err}await loadCuts();document.getElementById('cutName').value='';document.getElementById('cutFile').value='';toast('Foto publicada na galeria!')}catch(err){toast('Falha ao publicar: '+err.message)}finally{button.disabled=false;button.textContent='Publicar foto'}}
+async function removeCut(id,path){if(current?.role!=='admin'||!authToken)return;if(!confirm('Excluir esta foto da galeria?'))return;try{await rpc('brooklynxxi_remover_corte',{p_id:id},true);await loadCuts();const response=await fetch(SUPABASE_URL+'/storage/v1/object/'+CUTS_BUCKET+'/'+encodeURIComponent(path),{method:'DELETE',headers:{apikey:SUPABASE_KEY,Authorization:'Bearer '+authToken}});toast(response.ok?'Foto removida.':'Foto retirada da galeria. O arquivo poderá exigir limpeza no Storage.')}catch(err){toast('Erro ao excluir: '+err.message)}}
+
+const oldGo=go;
+go=function(v){oldGo(v);if(v==='cuts')loadCuts().catch(err=>toast('Não foi possível carregar a galeria: '+err.message));if(['book','barbers','services'].includes(v))syncCatalog().then(()=>{if(v==='book')renderWizard();if(v==='barbers')renderBarbers();if(v==='services')renderServices()}).catch(err=>toast(err.message));if(v==='panel'&&authToken)syncAgenda().catch(err=>toast(err.message))};
+// Não carregar registros locais antigos para a V6.
+db.bookings=[];
+syncCatalog().catch(err=>toast('Configure o SQL da V6: '+err.message));
+
+
+
+/* V26 — Web Push iOS sem espera indefinida por serviceWorker.ready. */
+const PUSH_FN='/functions/v1/brooklynxxi-push';
+async function pushApi(data,token=authToken){
+ const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),12000);
+ try{
+  const r=await fetch(SUPABASE_URL+PUSH_FN,{method:'POST',signal:controller.signal,headers:{'apikey':SUPABASE_KEY,'Authorization':'Bearer '+token,'Content-Type':'application/json'},body:JSON.stringify(data)});
+  const j=await r.json().catch(()=>({}));if(!r.ok)throw Error(j.error||'Erro no serviço de notificações ('+r.status+')');return j;
+ }catch(e){if(e.name==='AbortError')throw Error('O Supabase demorou para responder. Tente novamente.');throw e}finally{clearTimeout(timer)}
+}
+function pushAvailable(){return !!(window.isSecureContext&&'serviceWorker' in navigator&&'PushManager' in window&&'Notification' in window)}
+function urlBase64ToUint8Array(value){const pad='='.repeat((4-value.length%4)%4),raw=atob((value+pad).replace(/-/g,'+').replace(/_/g,'/'));return Uint8Array.from(raw,c=>c.charCodeAt(0))}
+function pushStatus(message){const el=document.getElementById('pushStatus');if(el)el.textContent=message}
+function pushBusy(busy){const btn=document.getElementById('pushEnableButton');if(btn){btn.disabled=busy;btn.textContent=busy?'Ativando...':'Ativar notificações'}}
+function pushTimeout(promise,label,ms=12000){let timer;return Promise.race([promise,new Promise((_,reject)=>{timer=setTimeout(()=>reject(Error(label+' demorou para responder. Feche e abra o app e tente novamente.')),ms)})]).finally(()=>clearTimeout(timer))}
+async function brooklynPushRegistration(){
+ if(!pushAvailable())throw Error('Web Push indisponível. No iPhone, abra o aplicativo instalado na Tela de Início.');
+ // iOS: serviceWorker.ready pode nunca resolver quando a página ainda não está controlada.
+ // PushManager pertence ao registro, não exige navigator.serviceWorker.controller.
+ const reg=await pushTimeout(navigator.serviceWorker.register('./sw.js',{scope:'./'}),'Registro do Service Worker',15000);
+ try{await pushTimeout(reg.update(),'Atualização do Service Worker',8000)}catch(err){console.warn('Atualização SW:',err)}
+ if(!reg.active){
+  await pushTimeout(new Promise((resolve,reject)=>{
+   const worker=reg.installing||reg.waiting;
+   if(!worker)return reject(Error('Service Worker sem processo ativo.'));
+   const onState=()=>{if(reg.active||worker.state==='activated'){worker.removeEventListener('statechange',onState);resolve()}else if(worker.state==='redundant'){worker.removeEventListener('statechange',onState);reject(Error('Service Worker foi descartado.'))}};
+   worker.addEventListener('statechange',onState);onState();
+  }),'Ativação do Service Worker',15000);
+ }
+ if(!reg.pushManager)throw Error('Este navegador não disponibilizou o Push Manager.');
+ return reg;
+}
+async function enableBrooklynPush(){
+ if(current?.role!=='barber'||!authToken)return toast('Entre com sua conta de barbeiro.');
+ if(!pushAvailable())return pushStatus('Notificações não disponíveis. No iPhone, abra o app instalado na Tela de Início.');
+ pushBusy(true);
+ try{
+  pushStatus('Conferindo configuração do Supabase...');
+  const cfg=await pushApi({action:'config'});if(!cfg.publicKey)throw Error('Chave VAPID não configurada no Supabase.');
+  pushStatus('Registrando Service Worker no iPhone...');
+  const reg=await brooklynPushRegistration();
+  if(Notification.permission==='denied')throw Error('Notificações bloqueadas. Ative em Ajustes > Notificações > BROOKLYNXXI.');
+  const permission=Notification.permission==='granted'?'granted':await pushTimeout(Notification.requestPermission(),'Permissão do iPhone');
+  if(permission!=='granted')throw Error('Permissão de notificações não concedida.');
+  pushStatus('Criando inscrição Web Push no iPhone...');
+  let sub=await pushTimeout(reg.pushManager.getSubscription(),'Consulta de inscrição');
+  if(!sub)sub=await pushTimeout(reg.pushManager.subscribe({userVisibleOnly:true,applicationServerKey:urlBase64ToUint8Array(cfg.publicKey)}),'Inscrição Web Push',25000);
+  pushStatus('Salvando este celular no Supabase...');
+  await pushApi({action:'subscribe',subscription:sub.toJSON()});
+  pushStatus('Notificações ativadas neste celular!');toast('Notificações ativadas neste celular!');
+ }catch(err){console.warn('BROOKLYNXXI push:',err);pushStatus('Não foi possível ativar: '+(err.message||String(err)));toast('Notificações: '+(err.message||String(err)))}finally{pushBusy(false)}
+}
+async function disableBrooklynPush(){
+ try{
+  pushStatus('Desativando notificações...');
+  const reg=await brooklynPushRegistration();const sub=await pushTimeout(reg.pushManager.getSubscription(),'Consulta de inscrição');
+  if(sub){await pushApi({action:'unsubscribe',endpoint:sub.endpoint});await pushTimeout(sub.unsubscribe(),'Desativação de inscrição')}
+  pushStatus('Notificações desativadas neste celular.');toast('Notificações desativadas neste celular.');
+ }catch(err){pushStatus('Não foi possível desativar: '+err.message);toast(err.message)}
+}
+async function updatePushStatus(){
+ if(!document.getElementById('pushStatus'))return;
+ if(!pushAvailable()){pushStatus('No iPhone, abra o app instalado na Tela de Início para ativar avisos.');return}
+ try{
+  const reg=await brooklynPushRegistration();
+  const sub=await pushTimeout(reg.pushManager.getSubscription(),'Consulta de inscrição');
+  pushStatus(sub?'Este celular possui uma inscrição. Toque em Ativar para confirmar o cadastro no Supabase.':'Notificações ainda não ativadas neste celular.');
+ }catch(err){pushStatus('Não foi possível verificar este celular: '+err.message)}
+}
+
+/* V28 — inscrição Web Push opcional para cliente, sem login.
+   O token retornado pela RPC é uma credencial: nunca gravar em URL/log/localStorage. */
+async function clientePushApi(payload){
+ const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),15000);
+ try{
+  const response=await fetch(SUPABASE_URL+'/functions/v1/brooklynxxi-push-cliente',{
+   method:'POST',signal:controller.signal,
+   headers:{'apikey':SUPABASE_KEY,'Content-Type':'application/json'},
+   body:JSON.stringify(payload)
+  });
+  const result=await response.json().catch(()=>({}));
+  if(!response.ok)throw Error(result.error||'Falha no servidor ('+response.status+')');
+  return result;
+ }finally{clearTimeout(timer)}
+}
+async function ativarPushCliente(){
+ const status=document.getElementById('clientePushStatus');
+ const btn=document.getElementById('clientePushButton');
+ const reserva=window.__clientePushReserva;
+ if(!status||!btn||!reserva)return;
+ btn.disabled=true;
+ const step=msg=>{status.textContent=msg};
+ try{
+  if(!pushAvailable())throw Error('Notificações indisponíveis neste navegador. No iPhone, instale e abra o app pela Tela de Início.');
+  step('Consultando chave de notificações...');
+  const cfg=await clientePushApi({action:'config'});
+  if(!cfg.publicKey)throw Error('Chave pública não configurada.');
+  step('Preparando notificações do dispositivo...');
+  const reg=await brooklynPushRegistration();
+  if(Notification.permission==='denied')throw Error('Permissão bloqueada nos ajustes do aparelho.');
+  const permission=Notification.permission==='granted'?'granted':await pushTimeout(Notification.requestPermission(),'Permissão de notificações',15000);
+  if(permission!=='granted')throw Error('Permissão não concedida.');
+  step('Registrando este celular na reserva...');
+  let sub=await pushTimeout(reg.pushManager.getSubscription(),'Consulta de inscrição',12000);
+  if(!sub)sub=await pushTimeout(reg.pushManager.subscribe({userVisibleOnly:true,applicationServerKey:urlBase64ToUint8Array(cfg.publicKey)}),'Inscrição Push',25000);
+  await clientePushApi({action:'subscribe',agendamento_id:reserva.id,push_token:reserva.token,subscription:sub.toJSON()});
+  step('✅ Notificações ativadas para esta reserva!');
+  btn.textContent='Notificações ativadas';
+  window.__clientePushReserva=null;
+ }catch(err){
+  step('Não foi possível ativar: '+(err?.message||String(err)));
+  btn.disabled=false;
+ }
+}
+
+/* V28 — controles de Push em Configurações; sem tocar na inscrição V26. */
+const originalRenderPanelV25=renderPanel;
+renderPanel=function(){
+ originalRenderPanelV25();
+ if(!current)return;
+ const c=document.getElementById('panelContent');if(!c)return;
+ if(tab==='push-settings'){
+  c.innerHTML='<div class="box"><h3>⚙️ Configurações de notificações</h3><p class="muted">Ative os avisos de novos agendamentos neste celular.</p><p class="muted" id="pushStatus" role="status" aria-live="polite">Verificando este celular...</p><div class="actions"><button class="primary" id="pushEnableButton" type="button" onclick="enableBrooklynPush()">Ativar notificações</button><button class="secondary" type="button" onclick="disableBrooklynPush()">Desativar neste celular</button></div><p class="hint">Os avisos de agendamento são destinados ao barbeiro responsável. No iPhone, use o aplicativo instalado na Tela de Início.</p></div>';
+  updatePushStatus();return;
+ }
+ if(current.role==='barber'&&['agenda','pending'].includes(tab)&&(!('Notification' in window)||Notification.permission!=='granted')){
+  const b=document.createElement('div');b.className='box';b.style.marginBottom='12px';b.innerHTML='<p style="margin:0">🔔 <b>Receba novos agendamentos no celular.</b> <button class="secondary tiny" type="button" onclick="tab=\'push-settings\';renderPanel()">⚙️ Ativar nas configurações</button></p>';
+  c.prepend(b);
+ }
+};
+
+/* V14: cadastro direto seguro pela Edge Function autenticada. */
+function renderUserManagement(c){
+ if(current?.role!=='admin'){c.textContent='Acesso restrito.';return}
+ c.innerHTML=`<div class="box"><h3>👥 Gerenciar usuários</h3><p class="muted">Crie uma conta de barbeiro ou administrador com senha inicial, sem convite por e-mail.</p><form id="inviteForm" onsubmit="inviteBrooklynUser(event)"><div class="formgrid"><div class="field"><label>Nome completo</label><input id="inviteName" required minlength="2" maxlength="100" autocomplete="off" placeholder="Nome do funcionário"></div><div class="field"><label>E-mail de acesso</label><input id="inviteEmail" type="email" required maxlength="254" autocomplete="off" placeholder="usuario@exemplo.com"></div><div class="field"><label>Perfil</label><select id="inviteRole"><option value="barbeiro">Barbeiro</option><option value="admin">Administrador</option></select></div><div class="field"><label>Telefone do barbeiro (opcional)</label><input id="invitePhone" type="tel" maxlength="30" placeholder="DDD + número"></div><div class="field"><label>Senha inicial</label><input id="invitePassword" type="password" required minlength="6" maxlength="128" autocomplete="new-password" placeholder="Mínimo de 6 caracteres"></div><div class="field"><label>Confirmar senha</label><input id="inviteConfirmPassword" type="password" required minlength="6" maxlength="128" autocomplete="new-password" placeholder="Repita a senha"></div></div><button class="primary" id="inviteButton" type="submit">Criar usuário</button></form><p id="inviteResult" class="hint" role="status">Atenção: o administrador poderá entrar imediatamente com a senha inicial. Oriente o usuário a alterá-la e não compartilhe por canais inseguros.</p><p class="hint">Não é possível cadastrar um e-mail já existente no Supabase Auth. Esta tela não altera senhas de contas existentes.</p></div>`;
+}
+async function inviteBrooklynUser(event){
+ event.preventDefault();if(current?.role!=='admin'||!authToken)return toast('Entre como administrador.');
+ const nome=document.getElementById('inviteName').value.trim(),email=document.getElementById('inviteEmail').value.trim().toLowerCase(),perfil=document.getElementById('inviteRole').value,telefone=document.getElementById('invitePhone').value.trim(),senha=document.getElementById('invitePassword').value,confirmacao=document.getElementById('inviteConfirmPassword').value;
+ if(nome.length<2||!email.includes('@'))return toast('Informe nome e e-mail válidos.');
+ if(senha.length<6)return toast('A senha deve ter pelo menos 6 caracteres.');
+ if(senha!==confirmacao)return toast('As senhas não coincidem.');
+ if(perfil==='admin'&&!confirm('Deseja conceder acesso de ADMINISTRADOR a '+email+'?'))return;
+ const button=document.getElementById('inviteButton'),result=document.getElementById('inviteResult');button.disabled=true;button.textContent='Criando usuário...';result.textContent='Aguarde...';
+ try{
+  const response=await fetch(SUPABASE_URL+'/functions/v1/brooklynxxi-criar-usuario',{method:'POST',headers:{'apikey':SUPABASE_KEY,'Authorization':'Bearer '+authToken,'Content-Type':'application/json'},body:JSON.stringify({nome,email,perfil,telefone,senha})});
+  const data=await response.json().catch(()=>({}));
+  if(!response.ok||!data.success)throw Error(data.error||data.message||'Erro HTTP '+response.status);
+  result.textContent='Usuário criado: '+email+'. Perfil: '+(perfil==='admin'?'Administrador':'Barbeiro')+'. Oriente a troca da senha inicial.';
+  document.getElementById('inviteForm').reset();toast('Usuário criado com sucesso!');
+ }catch(err){result.textContent='Não foi possível criar: '+err.message;toast('Cadastro: '+err.message)}finally{button.disabled=false;button.textContent='Criar usuário'}
+}
+
+/* V13: ativação de convite Supabase (fluxo implicit). Nunca armazenar tokens do convite em localStorage. */
+let inviteAccessToken=null;
+let inviteRefreshToken=null;
+function clearInviteUrl(){
+ if(location.hash||location.search)history.replaceState(null,'',location.pathname);
+}
+function cancelInviteActivation(){inviteAccessToken=null;inviteRefreshToken=null;clearInviteUrl();go('home')}
+async function handleInviteCallback(){
+ const hash=new URLSearchParams(location.hash.replace(/^#/,''));
+ const query=new URLSearchParams(location.search);
+ const type=hash.get('type')||query.get('type');
+ const access=hash.get('access_token');
+ const refresh=hash.get('refresh_token');
+ const error=hash.get('error_description')||query.get('error_description')||hash.get('error')||query.get('error');
+ if(!access&&!error&&!['invite','recovery'].includes(type))return;
+ go('activate');
+ const intro=document.getElementById('activateIntro');
+ const status=document.getElementById('activateStatus');
+ const form=document.getElementById('activateForm');
+ clearInviteUrl(); // Remove credenciais do endereço antes de qualquer outra operação.
+ if(error){intro.textContent='Não foi possível validar o link.';status.textContent=error;return}
+ if(!access||!refresh||!['invite','recovery'].includes(type)){
+  intro.textContent='Link de ativação inválido ou incompleto.';
+  status.textContent='Solicite um novo convite ao administrador.';return;
+ }
+ try{
+  const user=await supaRequest('/auth/v1/user','GET',null,access);
+  if(!user?.id)throw Error('Não foi possível validar a sessão.');
+  inviteAccessToken=access;inviteRefreshToken=refresh;
+  intro.textContent='Convite validado'+(user.email?' para '+user.email:'')+'. Defina sua senha de acesso.';
+  status.textContent='Use uma senha de pelo menos 8 caracteres.';
+  form.classList.remove('hidden');
+ }catch(e){inviteAccessToken=null;inviteRefreshToken=null;intro.textContent='Convite inválido ou expirado.';status.textContent='Solicite um novo convite ao administrador.'}
+}
+async function saveInvitePassword(event){
+ event.preventDefault();
+ if(!inviteAccessToken)return toast('Abra novamente o convite enviado por e-mail.');
+ const password=document.getElementById('newTeamPassword').value;
+ const confirmation=document.getElementById('confirmTeamPassword').value;
+ const status=document.getElementById('activateStatus');
+ const button=document.getElementById('activateButton');
+ if(password.length<8)return toast('A senha precisa ter pelo menos 8 caracteres.');
+ if(password!==confirmation)return toast('As senhas não coincidem.');
+ button.disabled=true;button.textContent='Salvando senha...';
+ try{
+  await supaRequest('/auth/v1/user','PUT',{password},inviteAccessToken);
+  const role=await supaRequest('/rest/v1/rpc/brooklynxxi_me','POST',{},inviteAccessToken);
+  if(!role||!['admin','barber'].includes(role.role)){
+   inviteAccessToken=null;inviteRefreshToken=null;
+   document.getElementById('activateForm').classList.add('hidden');
+   status.textContent='Senha definida, mas sua conta ainda não está vinculada à equipe. Peça ao administrador para verificar seu perfil.';
+   return;
+  }
+  authToken=inviteAccessToken;
+  current=role.role==='admin'?{role:'admin',id:role.profissional_id||null,name:role.nome||'Administrador'}:{role:'barber',id:role.profissional_id,name:role.nome};
+  inviteAccessToken=null;inviteRefreshToken=null;
+  document.getElementById('newTeamPassword').value='';
+  document.getElementById('confirmTeamPassword').value='';
+  tab=new URLSearchParams(location.search).get('abrir')==='pendentes'?'pending':'agenda';await syncCatalog();await syncAgenda();go('panel');toast('Senha criada! Bem-vindo à equipe.');
+ }catch(e){status.textContent='Erro ao ativar conta: '+e.message;toast('Não foi possível concluir a ativação.');}
+ finally{button.disabled=false;button.textContent='Salvar senha e entrar';}
+}
+handleInviteCallback();
+
+// Instalacao no Android: o navegador decide quando oferecer a instalacao.
+
+function openInstallGuide(){
+ const overlay=document.getElementById('installOverlay');
+ if(!overlay)return;
+ overlay.hidden=false;
+ document.body.style.overflow='hidden';
+ overlay.querySelector('.install-close')?.focus();
+}
+function closeInstallGuide(){
+ const overlay=document.getElementById('installOverlay');
+ if(!overlay)return;
+ overlay.hidden=true;
+ document.body.style.overflow='';
+}
+document.addEventListener('keydown',event=>{if(event.key==='Escape'&&!document.getElementById('installOverlay')?.hidden)closeInstallGuide()});
+
+let brooklynInstallPrompt = null;
+window.addEventListener('beforeinstallprompt', (event) => {
+  event.preventDefault();
+  brooklynInstallPrompt = event;
+  const button = document.getElementById('installAppButton');
+  if (button) button.hidden = false;
+});
+document.getElementById('installAppButton')?.addEventListener('click', async () => {
+  if (!brooklynInstallPrompt) return;
+  const prompt = brooklynInstallPrompt;
+  brooklynInstallPrompt = null;
+  document.getElementById('installAppButton').hidden = true;
+  await prompt.prompt();
+});
+window.addEventListener('appinstalled', () => {
+  brooklynInstallPrompt = null;
+  const button = document.getElementById('installAppButton');
+  if (button) button.hidden = true;
+});
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('./sw.js').catch((error) => console.warn('PWA:', error));
+  });
+}
+
+/* V29 — melhorias visuais e recuperação segura de recusas. */
+let historyFilterV29='all';
+async function restoreRejectedBooking(id){
+ if(!current||!authToken)return toast('Faça login para continuar.');
+ const b=db.bookings.find(x=>x.id===id);
+ if(!b||b.status!=='rejected'||!allowed(b))return toast('Agendamento indisponível.');
+ if(!confirm('Reverter a recusa de '+b.name+'? A reserva só será recuperada se o horário estiver livre.'))return;
+ try{
+  await rpc('brooklynxxi_reverter_recusa',{p_id:id},true);
+  await syncCatalog();await syncAgenda();
+  toast('Agendamento recuperado! Confira a agenda e avise o cliente.');
+ }catch(err){toast('Não foi possível reverter: '+err.message)}
+}
+const renderPanelV28Base=renderPanel;
+renderPanel=function(){
+ renderPanelV28Base();
+ if(!current)return;
+ const c=document.getElementById('panelContent');if(!c)return;
+ if(tab==='history'){
+  const heading=c.querySelector('.box > h3');
+  if(heading)heading.textContent='Histórico de agendamentos';
+  const all=db.bookings.filter(allowed);
+  const counts={all:all.length,pending:0,confirmed:0,rejected:0,cancelled:0,expired:0,finished:0};
+  all.forEach(b=>{if(Object.hasOwn(counts,b.status))counts[b.status]++});
+  const filters=document.createElement('div');filters.className='history-filters';
+  filters.innerHTML=[['all','Todos'],['pending','Pendentes'],['confirmed','Confirmados'],['rejected','Recusados'],['cancelled','Cancelados'],['expired','Expirados'],['finished','Finalizados']].map(([key,label])=>`<button type="button" class="history-filter ${historyFilterV29===key?'selected':''}" onclick="historyFilterV29='${key}';renderPanel()">${label} <span>${counts[key]}</span></button>`).join('');
+  const box=c.querySelector('.box');if(box)box.insertBefore(filters,heading?.nextSibling||box.firstChild);
+  const cards=[...c.querySelectorAll('.booking[data-status]')];
+  // O histórico inclui também reservas ativas, sem modificar seus status.
+  const ids=new Set(cards.map(x=>x.getAttribute('data-booking-id')));
+  const entries=all.filter(b=>['pending','confirmed'].includes(b.status));
+  for(const b of entries){
+   const card=document.createElement('div');card.className='booking';card.dataset.status=b.status;
+   card.innerHTML=`<div><b>${esc(b.name)}</b> <span class="pill ${b.status}">${statusLabel(b.status)}</span><small>${displayDate(b.date)} • ${esc(b.time)} • ${esc(getService(b.service)?.name||'Serviço')}</small><small>💈 ${esc(getBarber(b.barber)?.name||'Barbeiro')}</small></div>`;
+   box?.appendChild(card);cards.push(card);
+  }
+  cards.forEach(card=>{card.hidden=historyFilterV29!=='all'&&card.dataset.status!==historyFilterV29});
+  const empty=c.querySelector('.box > p.muted');if(empty)empty.hidden=cards.length>0;
+  if(!cards.some(card=>!card.hidden)){
+   const note=document.createElement('p');note.className='muted history-empty';note.textContent='Nenhum agendamento neste filtro.';box?.appendChild(note);
+  }
+ }
+};
+
+/* V30 — calendário visual, atualização automática e sessão persistente na aba. */
+let bookingCalendarMonthV30=null;
+function bookingCalendarChooseV30(date){
+ if(date<dayStr(new Date()))return;
+ booking.date=date;booking.time='';bookingCalendarMonthV30=date.slice(0,7);renderWizard();
+}
+function bookingCalendarMoveV30(delta){
+ const [y,m]=(bookingCalendarMonthV30||dayStr(new Date()).slice(0,7)).split('-').map(Number);
+ const d=new Date(y,m-1+delta,1);
+ const month=dayStr(d).slice(0,7);
+ if(month<dayStr(new Date()).slice(0,7))return;
+ bookingCalendarMonthV30=month;renderWizard();
+}
+function bookingCalendarMarkupV30(){
+ const today=dayStr(new Date()),selected=booking.date||today;
+ const month=bookingCalendarMonthV30||selected.slice(0,7);
+ const [y,m]=month.split('-').map(Number),first=new Date(y,m-1,1);
+ const last=new Date(y,m,0).getDate(),offset=(first.getDay()+6)%7;
+ let days=Array.from({length:offset},()=>'<span class="blank"></span>');
+ for(let n=1;n<=last;n++){
+  const date=`${y}-${String(m).padStart(2,'0')}-${String(n).padStart(2,'0')}`;
+  days.push(`<button type="button" class="${date===selected?'selected ':''}${date===today?'today':''}" ${date<today?'disabled':''} onclick="bookingCalendarChooseV30('${date}')" aria-label="${displayDate(date)}" aria-pressed="${date===selected}">${n}</button>`);
+ }
+ const tomorrow=new Date();tomorrow.setDate(tomorrow.getDate()+1);
+ return `<div class="booking-calendar"><div class="booking-calendar-head"><button type="button" class="secondary tiny" onclick="bookingCalendarMoveV30(-1)" ${month<=today.slice(0,7)?'disabled':''} aria-label="Mês anterior">◀</button><strong>${esc(first.toLocaleDateString('pt-BR',{month:'long',year:'numeric'}))}</strong><button type="button" class="secondary tiny" onclick="bookingCalendarMoveV30(1)" aria-label="Próximo mês">▶</button></div><div class="booking-calendar-week">${['Seg','Ter','Qua','Qui','Sex','Sáb','Dom'].map(x=>`<span>${x}</span>`).join('')}</div><div class="booking-calendar-days">${days.join('')}</div><div class="booking-calendar-shortcuts"><button type="button" class="secondary tiny" onclick="bookingCalendarChooseV30('${today}')">Hoje</button><button type="button" class="secondary tiny" onclick="bookingCalendarChooseV30('${dayStr(tomorrow)}')">Amanhã</button></div><p class="booking-calendar-selected">📅 Selecionado: <b>${displayDate(selected)}</b></p></div>`;
+}
+const renderWizardV29Base=renderWizard;
+renderWizard=function(){
+ renderWizardV29Base();
+ if(stage!==2)return;
+ const input=document.querySelector('#wizard input[type="date"]');
+ if(!input)return;
+ const parent=input.closest('.field');
+ if(parent){parent.outerHTML=bookingCalendarMarkupV30()}
+};
+let agendaSyncBusyV30=false;
+let agendaSyncTimerV30=null;
+let agendaLastUpdateV30=0;
+async function brooklynRenewSessionV30(force=false){
+ if(!brooklynRefreshToken)return false;
+ if(!force&&Date.now()<brooklynExpiry-120000)return true;
+ const session=await supaRequest('/auth/v1/token?grant_type=refresh_token','POST',{refresh_token:brooklynRefreshToken});
+ if(!session.access_token)throw Error('Não foi possível renovar a sessão.');
+ authToken=session.access_token;brooklynRefreshToken=session.refresh_token||brooklynRefreshToken;
+ brooklynExpiry=Date.now()+(Number(session.expires_in)||3600)*1000;
+ localStorage.setItem('brooklynxxi_session_v36',JSON.stringify({refresh:brooklynRefreshToken,access:authToken,expiry:brooklynExpiry}));
+ return true;
+}
+async function brooklynSyncLiveV30(){
+ if(agendaSyncBusyV30||!authToken||!current||document.hidden)return;
+ agendaSyncBusyV30=true;
+ try{
+  await brooklynRenewSessionV30();
+  const fresh=await rpc('brooklynxxi_agenda',{},true);
+  if(!Array.isArray(fresh))return;
+  const signature=a=>JSON.stringify(a.map(b=>[b.id,b.status,b.date,b.time,b.barber,b.followup,b.verified_at]));
+  const changed=signature(fresh)!==signature(db.bookings);
+  if(changed){
+   db.bookings=fresh;
+   if(document.getElementById('panel')?.classList.contains('active')&&['agenda','pending','confirmed','history','followup'].includes(tab))renderPanel();
+   else if(document.getElementById('panel')?.classList.contains('active')){
+    const currentTab=tab;
+    const buttons=document.getElementById('stats');
+    // Não substituir formulários que o usuário estiver preenchendo.
+    if(buttons){const items=db.bookings.filter(allowed);const counts={pending:items.filter(x=>x.status==='pending').length,confirmed:items.filter(x=>x.status==='confirmed').length,agenda:items.filter(x=>['pending','confirmed'].includes(x.status)).length};for(const btn of buttons.querySelectorAll('button')){const key=btn.getAttribute('onclick')?.match(/tab='([^']+)'/)?.[1];if(key&&counts[key]!==undefined){const b=btn.querySelector('b');if(b)b.textContent=counts[key]}}}
+    tab=currentTab;
+   }
+  }
+  agendaLastUpdateV30=Date.now();
+  const stamp=document.getElementById('agendaLiveStampV30');
+  if(stamp)stamp.textContent='Atualizado '+new Date().toLocaleTimeString('pt-BR',{hour:'2-digit',minute:'2-digit'});
+ }catch(err){
+  console.warn('Atualização automática da agenda:',err);
+  if(String(err.message).includes('401')||String(err.message).includes('JWT')){
+   try{await brooklynRenewSessionV30(true)}catch(e){console.warn('Sessão expirada:',e)}
+  }
+ }finally{agendaSyncBusyV30=false}
+}
+const renderPanelV29BaseV30=renderPanel;
+renderPanel=function(){
+ renderPanelV29BaseV30();
+ if(!current)return;
+ const tabs=document.getElementById('panelTabs');
+ if(tabs){tabs.setAttribute('aria-label','Ações do painel');tabs.querySelectorAll('button').forEach(b=>b.title=b.textContent.trim());}
+ if(['agenda','pending','confirmed','history','followup'].includes(tab)){
+  const c=document.getElementById('panelContent');
+  if(c&&!document.getElementById('agendaLiveStampV30')){
+   const info=document.createElement('div');info.className='hint';info.style.cssText='text-align:right;margin:0 0 8px;color:#93c5fd;font-size:12px';
+   info.innerHTML='🔄 <span id="agendaLiveStampV30">Atualização automática ativa</span>';
+   c.prepend(info);
+  }
+ }
+};
+async function brooklynRestoreSessionV30(){
+ let saved;try{saved=JSON.parse(localStorage.getItem('brooklynxxi_session_v36')||sessionStorage.getItem('brooklynxxi_session_v30')||'null')}catch{return}
+ if(!saved?.refresh||!saved?.access)return;
+ try{
+  authToken=saved.access;brooklynRefreshToken=saved.refresh;brooklynExpiry=Number(saved.expiry)||0;
+  await brooklynRenewSessionV30();
+  const role=await rpc('brooklynxxi_me',{},true);
+  if(!role||!['admin','barber'].includes(role.role))throw Error('Acesso não autorizado');
+  current=role.role==='admin'?{role:'admin',id:role.profissional_id||null,name:role.nome||'Administrador'}:{role:'barber',id:role.profissional_id,name:role.nome};
+  await syncCatalog();await syncAgenda();go('panel');
+ }catch(err){console.warn('Não foi possível restaurar a sessão:',err);authToken=null;current=null;brooklynRefreshToken=null;localStorage.removeItem('brooklynxxi_session_v36');sessionStorage.removeItem('brooklynxxi_session_v30')}
+}
+agendaSyncTimerV30=setInterval(brooklynSyncLiveV30,12000);
+document.addEventListener('visibilitychange',()=>{if(!document.hidden)brooklynSyncLiveV30()});
+window.addEventListener('focus',()=>brooklynSyncLiveV30());
+brooklynRestoreSessionV30();
+
+/* V31 - Duração padrão por barbeiro e duração individual, integrada ao Supabase. */
+function barberDurationV31(id){return Math.max(10,Number(getBarber(id)?.duration)||30)}
+slots=function(barber,date,service,exclude){
+ const dur=barberDurationV31(barber),step=dur,start=minutes(db.settings.open),end=minutes(db.settings.close),now=new Date(),arr=[];
+ if(!barber||!date)return arr;
+ for(let t=start;t+dur<=end;t+=step){
+  const time=fmtMin(t),dt=new Date(date+'T'+time+':00');
+  const busy=dt<=now || db.bookings.some(b=>b.id!==exclude&&b.barber===barber&&b.date===date&&['pending','confirmed'].includes(b.status)&&t<minutes(b.time)+(Number(b.duration)||barberDurationV31(b.barber))&&t+dur>minutes(b.time)) || (typeof ocupadosRemotos!=='undefined'&&ocupadosRemotos.some(o=>o.barber===barber&&o.date===date&&t<minutes(o.time)+Number(o.duration)&&t+dur>minutes(o.time)));
+  arr.push({time,busy});
+ }
+ return arr;
+};
+const renderWizardBeforeV31=renderWizard;
+renderWizard=function(){
+ renderWizardBeforeV31();
+ const dur=barberDurationV31(booking.barber);
+ if(stage===1){document.querySelectorAll('#wizard .choice small').forEach(el=>{el.textContent=el.textContent.replace(/\d+ min(?:utos)?/,dur+' min')});}
+ if(stage===2){const el=document.querySelector('#wizard .box h2');if(el)el.insertAdjacentHTML('afterend','<p class="hint">💈 Duração deste barbeiro: '+dur+' minutos por atendimento.</p>');}
+};
+const renderPanelBeforeV31=renderPanel;
+renderPanel=function(){
+ renderPanelBeforeV31();
+ if(!current)return;
+ const tabs=document.getElementById('panelTabs');
+ if(tabs&&!tabs.querySelector('[data-v31-tab]')){
+  const btn=document.createElement('button');btn.className='secondary '+(tab==='durations'?'active':'');btn.dataset.v31Tab='1';btn.textContent='⏱️ Duração';btn.onclick=()=>{tab='durations';renderPanel()};tabs.appendChild(btn);
+ }
+ if(tab==='durations'){
+  const choices=(current.role==='admin'?db.barbers:db.barbers.filter(b=>b.id===current.id));
+  document.getElementById('panelContent').innerHTML='<div class="box"><h3>⏱️ Tempo padrão por barbeiro</h3><p class="muted">Vale para todos os serviços e apenas para novos agendamentos. Os já marcados não mudam.</p>'+choices.map(b=>'<div class="booking"><div><b>'+esc(b.name)+'</b><small>Tempo atual: '+barberDurationV31(b.id)+' minutos</small></div><div class="actions"><select id="durV31_'+b.id+'" aria-label="Minutos de '+esc(b.name)+'">'+[10,15,20,25,30,35,40,45,50,55,60,75,90,120,150,180].map(n=>'<option value="'+n+'" '+(barberDurationV31(b.id)===n?'selected':'')+'>'+n+' min</option>').join('')+'</select><button class="primary tiny" onclick="saveBarberDurationV31(\''+b.id+'\')">Salvar</button></div></div>').join('')+'<p class="hint">Para mudar o tempo de um cliente específico, abra a Agenda, Pendentes ou Confirmados e toque em “⏱️ Alterar tempo”.</p></div>';
+ }else if(['agenda','pending','confirmed','history','followup'].includes(tab)){
+  document.querySelectorAll('#panelContent .booking').forEach(el=>{
+   const match=el.querySelector('button[onclick*="changeStatus"],button[onclick*="restoreRejectedBooking"]');
+   const id=match?.getAttribute('onclick')?.match(/'([0-9a-f-]{36})'/i)?.[1];
+   if(!id||el.querySelector('[data-v31-edit]'))return;
+   const b=db.bookings.find(x=>x.id===id);if(!b)return;
+   const small=el.querySelector('small');if(small)small.textContent+=' • '+(Number(b.duration)||barberDurationV31(b.barber))+' min';
+   if(!['pending','confirmed'].includes(b.status))return;
+   const actions=el.querySelector('.actions');if(actions){const button=document.createElement('button');button.className='secondary tiny';button.dataset.v31Edit='1';button.textContent='⏱️ Alterar tempo';button.onclick=()=>editBookingDurationV31(id);actions.appendChild(button);}
+  });
+ }else if(tab==='new'){
+  const el=document.querySelector('#manualService');if(el)el.querySelectorAll('option').forEach(o=>{o.textContent=o.textContent.replace(/\s*\(\d+ min\)/,'')});
+  const label=document.querySelector('#manualTime')?.closest('.field');if(label)label.insertAdjacentHTML('beforeend','<small class="hint">Duração conforme barbeiro selecionado.</small>');
+ }
+};
+async function saveBarberDurationV31(id){
+ const n=Number(document.getElementById('durV31_'+id)?.value);
+ try{await rpc('brooklynxxi_definir_duracao_barbeiro',{p_profissional:id,p_minutos:n},true);await syncCatalog();renderPanel();toast('Duração padrão salva: '+n+' minutos.');}catch(err){toast('Erro: '+err.message)}
+}
+async function editBookingDurationV31(id){
+ const b=db.bookings.find(x=>x.id===id);if(!b)return;
+ const value=prompt('Duração de '+b.name+' em minutos (10 a 360, múltiplos de 5):',String(Number(b.duration)||barberDurationV31(b.barber)));
+ if(value===null)return;
+ const n=Number(value);if(!Number.isInteger(n)||n<10||n>360||n%5!==0)return toast('Informe minutos entre 10 e 360, em múltiplos de 5.');
+ try{await rpc('brooklynxxi_alterar_duracao_agendamento',{p_agendamento:id,p_minutos:n},true);await syncCatalog();await syncAgenda();toast('Duração atualizada para '+n+' minutos.');}catch(err){toast('Não foi possível alterar: '+err.message)}
+}
+
+</script>
+<style>
+
+/* V33: identidade BROOKLYNXXI e modo exclusivo do quadro */
+#panelContent .board32{background:#061723;color:#f7f3e9;border:1px solid #33536a;border-radius:20px;padding:14px;min-height:65vh;box-shadow:0 18px 45px #0006}
+#panelContent .board32-header{border-radius:15px;overflow:hidden;background:linear-gradient(90deg,rgba(2,18,29,.94),rgba(4,32,49,.83)),url('barbearia-fundo.jpg') center 48%/cover;padding:20px 12px 14px;border:1px solid #385468}
+#panelContent .board33-hero{display:flex;align-items:center;justify-content:center;gap:15px;margin-bottom:12px}
+#panelContent .board33-logo{width:76px;height:76px;object-fit:cover;border-radius:15px;border:2px solid #a74146;box-shadow:0 6px 20px #0008}
+#panelContent .board32-brand{color:#fff4dd;font-size:clamp(24px,4vw,43px);letter-spacing:1.5px;text-shadow:0 3px 12px #000}
+#panelContent .board33-subbrand{font-size:12px;letter-spacing:3px;color:#f0c5ba;font-weight:800}
+#panelContent .board32-header h2{color:#fff6e8;margin:7px 0 3px}
+#panelContent .board33-caption{color:#e0d7cf;font-size:13px}
+#panelContent .board33-tools{display:flex;justify-content:center;margin:12px 0 3px}
+#panelContent .board33-focus-btn{background:#a93f45;border:1px solid #db7777;color:#fff;padding:11px 18px;border-radius:10px;font-weight:800;cursor:pointer}
+#panelContent .board33-focus-btn:hover{background:#c35359}
+#panelContent .board32-column{background:linear-gradient(160deg,#08273a,#061725 55%,#07111c);border-color:#a4444c}
+#panelContent .board32-person{background:linear-gradient(110deg,#09334b,#062237);border-bottom-color:#a4444c}
+#panelContent .board32-booked{background:#123e59;border-color:#368cb7}
+#panelContent .board32-pending{background:#554019;border-color:#dca327}
+#panelContent .board32-free{background:#123c32;border-color:#24976b}
+#panelContent .board32-hour{background:#071e2b}
+body.board33-focus{overflow:hidden!important;background:#06131d!important}
+body.board33-focus>.top,body.board33-focus>footer{display:none!important}
+body.board33-focus #panel{position:fixed!important;inset:0!important;z-index:900!important;display:block!important;background:#06131d!important;overflow-y:auto!important;overscroll-behavior:contain;padding:env(safe-area-inset-top,0px) 0 env(safe-area-inset-bottom,0px)}
+body.board33-focus #panel>.wrap{max-width:none!important;width:100%!important;padding:8px 12px 18px!important}
+body.board33-focus #panel .dayline,body.board33-focus #panel .notice,body.board33-focus #panel #stats,body.board33-focus #panel #panelTabs{display:none!important}
+body.board33-focus #panelContent .board32{min-height:calc(100dvh - 18px);border:0;border-radius:0;padding:8px;box-shadow:none}
+body.board33-focus #panelContent .board32-header{padding:10px}
+body.board33-focus #panelContent .board33-logo{width:57px;height:57px}
+body.board33-focus #panelContent .board32-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+@media(max-width:850px){body.board33-focus #panelContent .board32-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:620px){#panelContent .board33-logo{width:58px;height:58px}#panelContent .board33-subbrand{font-size:9px;letter-spacing:1px}#panelContent .board32-header{padding:13px 8px}body.board33-focus #panelContent .board32-grid{grid-template-columns:1fr}body.board33-focus #panel>.wrap{padding:4px!important}}
+
+
+/* V34 — janela móvel de 4 horas, destaque do próximo horário e altura controlada */
+#panelContent .board34-next{min-height:66px;filter:brightness(1.13)}
+#panelContent .board34-next .board32-hour{font-size:17px;border:2px solid #e2c08a;color:#fff4d8}
+#panelContent .board34-next .board32-event{border-width:2px;font-size:15px;box-shadow:0 0 0 1px #e2c08a66,0 8px 22px #0005}
+#panelContent .board34-next .board32-event:before{content:'PRÓXIMO';display:block;font-size:10px;font-weight:900;letter-spacing:1px;color:#ffe2a8;margin-bottom:4px}
+body.board33-focus #panelContent .board32{height:100dvh;min-height:0;display:flex;flex-direction:column;overflow:hidden}
+body.board33-focus #panelContent .board32-header{flex:0 0 auto;margin-bottom:8px}
+body.board33-focus #panelContent .board32-grid{flex:1 1 auto;min-height:0;align-items:stretch}
+body.board33-focus #panelContent .board32-column{display:flex;flex-direction:column;min-height:0}
+body.board33-focus #panelContent .board32-person{flex:0 0 auto}
+body.board33-focus #panelContent .board32-slots{overflow-y:auto;min-height:0;flex:1 1 auto;scrollbar-width:thin}
+body.board33-focus #panelContent .board32-legend{flex:0 0 auto;margin-top:7px}
+@media(max-width:620px){body.board33-focus #panelContent .board32{height:auto;min-height:100dvh;overflow:visible}body.board33-focus #panelContent .board32-grid{display:grid}body.board33-focus #panelContent .board32-slots{overflow:visible}}
+
+/* V32 — quadro de horários interno, responsivo */
+#panelContent .board32{width:100%;max-width:100%;}
+.board32-header{text-align:center;margin-bottom:20px}
+.board32-brand{font-size:clamp(25px,4vw,42px);font-weight:900;letter-spacing:2px;color:#f7f2e6;text-shadow:0 2px 10px #000}
+.board32-date{display:flex;justify-content:center;align-items:center;flex-wrap:wrap;gap:9px;margin:15px 0 20px}
+.board32-date input{width:auto;max-width:200px;color-scheme:dark}
+.board32-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:14px;align-items:start}
+.board32-column{background:linear-gradient(160deg,#0a1b31,#09111f 42%,#080e18);border:1px solid #258af3;border-radius:17px;overflow:hidden;min-width:0}
+.board32-person{background:linear-gradient(130deg,#093a78,#091a30);padding:16px 14px;border-bottom:1px solid #214b7a}
+.board32-person strong{display:block;font-size:21px;overflow-wrap:anywhere}
+.board32-person small{color:#b9cce2;display:block;margin-top:4px}
+.board32-slots{padding:10px;display:grid;gap:7px}
+.board32-slot{display:grid;grid-template-columns:65px minmax(0,1fr);gap:7px;align-items:stretch;min-height:44px}
+.board32-hour{background:#07101c;border:1px solid #24364b;border-radius:8px;display:flex;align-items:center;justify-content:center;font-weight:750;font-size:13px}
+.board32-event{border-radius:8px;padding:9px 10px;font-size:13px;line-height:1.4;min-width:0;overflow-wrap:anywhere}
+.board32-free{background:#073b26;border:1px solid #0fa75a;color:#bbfbd9}
+.board32-booked{background:#073668;border:1px solid #2086fa;color:#f1f7ff}
+.board32-pending{background:#594009;border:1px solid #dca327;color:#fff2c9}
+.board32-occupied{background:#262e3a;border:1px solid #475569;color:#cbd5e1}
+.board32-event b{display:block}.board32-event small{opacity:.8}
+.board32-legend{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;font-size:12px;margin-top:16px;color:#c9d6e5}
+.board32-legend span{display:flex;gap:6px;align-items:center}.board32-dot{width:11px;height:11px;border-radius:3px;display:inline-block}
+.board32-notice{padding:12px;text-align:center;color:#b8c9dd}
+@media(max-width:960px){.board32-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@media(max-width:600px){.board32-grid{grid-template-columns:1fr}.board32-brand{font-size:28px}.board32-slot{grid-template-columns:70px minmax(0,1fr)}}
+
+/* V36: no celular um barbeiro por vez; telas grandes usam colunas dinâmicas. */
+.board36-mobile-nav{display:none}
+#panelContent .board32-grid{grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr))}
+body.board33-focus #panelContent .board32-grid{grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr))}
+@media(max-width:650px){
+ #panelContent .board36-mobile-nav{display:flex;align-items:center;justify-content:space-between;gap:5px;margin:10px 0}
+ #panelContent .board36-mobile-nav strong{font-size:13px;text-align:center}
+ #panelContent .board36-mobile-nav button{font-size:11px;padding:8px 5px}
+ #panelContent .board32-grid,body.board33-focus #panelContent .board32-grid{display:grid;grid-template-columns:minmax(0,1fr)!important}
+ #panelContent .board32-column{display:none!important}
+ #panelContent .board32-column.board36-selected{display:flex!important}
+}
+</style>
+<script>
+// V32: painel exclusivo para usuários autenticados. Nenhuma consulta com nomes na página pública.
+let boardDateV32=dayStr(new Date());
+let boardBookingsV32=[];
+let boardRequestV32=0;
+let boardRefreshV32=0;
+let boardFocusV33=false;
+let boardSelectedV36=null;
+// Ocultação local do painel: não desativa o barbeiro e não altera agendamentos.
+let boardHiddenV35=new Set();
+try {boardHiddenV35=new Set(JSON.parse(sessionStorage.getItem('brooklynxxi_board_hidden_v35')||'[]').map(String));}catch(e){}
+function boardHideV35(id){boardHiddenV35.add(String(id));boardSaveHiddenV35();boardDrawV32();}
+function boardShowV35(id){boardHiddenV35.delete(String(id));boardSaveHiddenV35();boardDrawV32();}
+function boardShowAllV35(){boardHiddenV35.clear();boardSaveHiddenV35();boardDrawV32();}
+function boardToggleManagerV37(){const box=document.getElementById('board37-manager');if(box){box.hidden=!box.hidden;}}
+function boardSaveHiddenV35(){try{sessionStorage.setItem('brooklynxxi_board_hidden_v35',JSON.stringify([...boardHiddenV35]));}catch(e){}}
+
+function boardToggleFocusV33(){
+ if(!current||!authToken||tab!=='board32')return;
+ boardFocusV33=!boardFocusV33;document.body.classList.toggle('board33-focus',boardFocusV33);
+ boardDrawV32();window.scrollTo({top:0,behavior:'instant'});
+}
+function boardExitFocusV33(){boardFocusV33=false;document.body.classList.remove('board33-focus');}
+
+function boardEscV32(v){return esc(String(v??''));}
+function boardDateShiftV32(delta){const d=new Date(boardDateV32+'T12:00:00');d.setDate(d.getDate()+delta);boardDateV32=dayStr(d);boardLoadV32();}
+function boardSetDateV32(value){if(!/^\d{4}-\d{2}-\d{2}$/.test(value))return;boardDateV32=value;boardLoadV32();}
+function boardTimeV32(t){const p=String(t).split(':').map(Number);return p[0]*60+p[1];}
+function boardLabelV32(t){return String(Math.floor(t/60)).padStart(2,'0')+':'+String(t%60).padStart(2,'0');}
+function boardNowV34(){
+ const parts=new Intl.DateTimeFormat('en-CA',{timeZone:'America/Sao_Paulo',year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit',hourCycle:'h23'}).formatToParts(new Date());
+ const v=Object.fromEntries(parts.map(p=>[p.type,p.value]));
+ return {day:v.year+'-'+v.month+'-'+v.day,minute:Number(v.hour)*60+Number(v.minute)};
+}
+function boardSelectV36(id){boardSelectedV36=String(id);boardDrawV32();}
+function boardStepV36(step){const ids=db.barbers.filter(b=>b.active&&!boardHiddenV35.has(String(b.id))).map(b=>String(b.id));if(!ids.length)return;const pos=ids.indexOf(String(boardSelectedV36));boardSelectedV36=ids[(Math.max(0,pos)+step+ids.length)%ids.length];boardDrawV32();}
+function boardDrawV32(){
+ if(!current||!authToken||tab!=='board32')return;
+ const root=document.getElementById('panelContent');if(!root)return;
+ const registered=db.barbers.filter(b=>b.active);
+ // Elimina IDs removidos do cadastro e exibe apenas os barbeiros não ocultos.
+ const ids=new Set(registered.map(b=>String(b.id)));
+ for(const id of boardHiddenV35){if(!ids.has(id))boardHiddenV35.delete(id);}
+ const active=registered.filter(b=>!boardHiddenV35.has(String(b.id)));
+ const hidden=registered.filter(b=>boardHiddenV35.has(String(b.id)));
+ if(active.length&&!active.some(b=>String(b.id)===String(boardSelectedV36)))boardSelectedV36=String(active[0].id);
+ const opening=boardTimeV32(db.settings.open||'09:00'),closing=boardTimeV32(db.settings.close||'19:00');
+ const nowBR=boardNowV34();
+ const isToday=boardDateV32===nowBR.day;
+ const visibleStart=isToday?Math.max(opening,nowBR.minute):opening;
+ const visibleEnd=isToday?Math.min(closing,nowBR.minute+240):closing;
+ const cols=active.map(b=>{
+  const own=boardBookingsV32.filter(x=>String(x.barber)===String(b.id));
+  const dur=Math.max(10,Number(barberDurationV31(b.id))||30);
+  let free=0,marked=0,html='';
+  // Blocos sequenciais: início de agendamento real prevalece, e períodos ocupados não viram vagas.
+  let t=opening,guard=0,firstUpcoming=true;
+  while(t<closing&&guard++<150){
+   const exact=own.find(x=>boardTimeV32(x.time)===t);
+   const covering=own.find(x=>boardTimeV32(x.time)<t&&boardTimeV32(x.time)+Number(x.duration)>t);
+   if(exact){
+    const len=Math.max(5,Number(exact.duration)||dur);
+    if(t+len<=visibleStart){t+=len;continue;}
+    if(t>=visibleEnd)break;
+    marked++;
+    const featured=firstUpcoming;firstUpcoming=false;
+    const pending=exact.status==='pending';
+    html+='<div class="board32-slot '+(featured?'board34-next':'')+'"><div class="board32-hour">'+boardLabelV32(t)+'</div><div class="board32-event '+(pending?'board32-pending':'board32-booked')+'"><b>'+boardEscV32(exact.name)+'</b><small>'+boardEscV32(getService(exact.service)?.name||'Atendimento')+' · '+len+' min · '+(pending?'Pendente':'Confirmado')+'</small></div></div>';
+    t+=len;continue;
+   }
+   if(covering){t=Math.max(t+5,boardTimeV32(covering.time)+Number(covering.duration));continue;}
+   if(t>=visibleEnd)break;
+   const next=own.filter(x=>boardTimeV32(x.time)>t).sort((x,y)=>boardTimeV32(x.time)-boardTimeV32(y.time))[0];
+   const end=Math.min(closing,t+dur);
+   if(end<=closing&&(!next||boardTimeV32(next.time)>=end)){
+    if(end<=visibleStart){t=end;continue;}
+    if(t>=visibleEnd)break;
+    const featured=firstUpcoming;firstUpcoming=false;
+    free++;html+='<div class="board32-slot '+(featured?'board34-next':'')+'"><div class="board32-hour">'+boardLabelV32(t)+'</div><div class="board32-event board32-free">Vago <small>· '+dur+' min</small></div></div>';t=end;
+   }else if(next){
+    // Um encaixe menor que a duração padrão não pode ser oferecido como horário livre.
+    if(t>=visibleStart&&t<visibleEnd){const featured=firstUpcoming;firstUpcoming=false;html+='<div class="board32-slot '+(featured?'board34-next':'')+'"><div class="board32-hour">'+boardLabelV32(t)+'</div><div class="board32-event board32-occupied">Intervalo insuficiente</div></div>'; }
+    t=boardTimeV32(next.time);
+   }else break;
+  }
+  return '<section class="board32-column '+(String(b.id)===String(boardSelectedV36)?'board36-selected':'')+'"><div class="board32-person"><div class="board35-person-row"><strong>💈 '+boardEscV32(b.name)+'</strong><button type="button" class="board35-hide" onclick="boardHideV35(&quot;'+boardEscV32(b.id)+'&quot;)" title="Ocultar somente neste painel">Ocultar</button></div><small>'+marked+' agendamento(s) · '+free+' horário(s) vago(s) · '+dur+' min por atendimento</small></div><div class="board32-slots">'+(html||'<p class="board32-notice">Nenhum horário neste dia.</p>')+'</div></section>';
+ }).join('');
+ root.innerHTML='<div class="board32"><div class="board32-header"><div class="board33-hero"><img class="board33-logo" src="logo.jpg" alt="Símbolo BROOKLYNXXI"><div><div class="board32-brand">BROOKLYNXXI</div><div class="board33-subbrand">BARBEARIA · AGENDA DA EQUIPE</div></div></div><h2>Horários marcados</h2><p class="board33-caption">'+(isToday?'Próximas 4 horas · '+boardLabelV32(visibleStart)+' às '+boardLabelV32(visibleEnd):'Agenda do dia selecionado')+' · Atualização automática</p><div class="board33-tools"><button type="button" class="board37-manage-btn" onclick="boardToggleManagerV37()">⚙ Gerenciar barbeiros'+(hidden.length?' ('+hidden.length+' oculto'+(hidden.length>1?'s':'')+')':'')+'</button><button type="button" class="board37-restore-btn" onclick="boardShowAllV35()" '+(!hidden.length?'disabled':'')+'>↺ Mostrar todos</button><button type="button" class="board33-focus-btn" onclick="boardToggleFocusV33()">'+(boardFocusV33?'↙ Sair da tela exclusiva':'⛶ Enquadrar painel')+'</button></div><div class="board32-date"><button class="secondary tiny" onclick="boardDateShiftV32(-1)">◀</button><input type="date" aria-label="Data do quadro" value="'+boardEscV32(boardDateV32)+'" onchange="boardSetDateV32(this.value)"><button class="secondary tiny" onclick="boardDateShiftV32(1)">▶</button><button class="secondary tiny" onclick="boardDateV32=dayStr(new Date());boardLoadV32()">Hoje</button><button class="secondary tiny" onclick="boardLoadV32()">↻ Atualizar</button></div><div id="board37-manager" class="board37-manager" hidden><strong>Barbeiros cadastrados</strong><div class="board37-options">'+(registered.length?registered.map(b=>'<button type="button" class="board37-option" onclick="'+(boardHiddenV35.has(String(b.id))?'boardShowV35':'boardHideV35')+'(&quot;'+boardEscV32(b.id)+'&quot;)">'+(boardHiddenV35.has(String(b.id))?'＋ Mostrar ':'− Ocultar ')+boardEscV32(b.name)+'</button>').join(''):'Nenhum barbeiro ativo cadastrado.')+'</div></div></div>'+(active.length?'<div class="board36-mobile-nav"><button type="button" class="secondary tiny" onclick="boardStepV36(-1)">◀ Anterior</button><strong>'+boardEscV32(active.find(b=>String(b.id)===String(boardSelectedV36))?.name||'')+' ('+(active.findIndex(b=>String(b.id)===String(boardSelectedV36))+1)+'/'+active.length+')</strong><button type="button" class="secondary tiny" onclick="boardStepV36(1)">Próximo ▶</button></div><div class="board32-grid board35-count-'+Math.min(active.length,4)+'">'+cols+'</div>':'<p class="board32-notice">'+(registered.length?'Todos os barbeiros estão ocultos. Clique em “Mostrar todos” ou “Gerenciar barbeiros” acima.':'Nenhum barbeiro ativo cadastrado.')+'</p>')+'<div class="board32-legend"><span><i class="board32-dot" style="background:#2086fa"></i> Confirmado</span><span><i class="board32-dot" style="background:#0fa75a"></i> Vago</span><span><i class="board32-dot" style="background:#dca327"></i> Pendente</span></div></div>';
+}
+async function boardLoadV32(){
+ if(!current||!authToken||tab!=='board32')return;
+ const req=++boardRequestV32;
+ const root=document.getElementById('panelContent');if(root&&!root.querySelector('.board32'))root.innerHTML='<p class="board32-notice">Carregando horários da equipe...</p>';
+ try{
+  const r=await rpc('brooklynxxi_quadro_horarios',{p_dia:boardDateV32},true);
+  if(req!==boardRequestV32||tab!=='board32')return;
+  boardBookingsV32=Array.isArray(r.bookings)?r.bookings:[];
+  boardDrawV32();
+ }catch(e){if(req!==boardRequestV32)return;if(root)root.innerHTML='<div class="box"><p>Não foi possível carregar o quadro: '+boardEscV32(e.message)+'</p><button class="secondary" onclick="boardLoadV32()">Tentar novamente</button></div>';}
+}
+const renderPanelBeforeV32=renderPanel;
+renderPanel=function(){
+ renderPanelBeforeV32();
+ if(!current||!authToken){boardExitFocusV33();return;}
+ if(tab!=='board32'&&boardFocusV33)boardExitFocusV33();
+ const tabs=document.getElementById('panelTabs');
+ if(tabs&&!tabs.querySelector('[data-v32-board]')){
+  const btn=document.createElement('button');btn.className='secondary';btn.dataset.v32Board='1';btn.textContent='📅 Horários marcados';btn.onclick=()=>{tab='board32';renderPanel()};tabs.appendChild(btn);
+ }
+ const btn=tabs?.querySelector('[data-v32-board]');if(btn)btn.classList.toggle('active',tab==='board32');
+ if(tab==='board32')boardLoadV32();
+};
+
+/* V36: promoção/revogação de administrador somente via RPC com validação no banco. */
+const renderUserManagementV36Base=renderUserManagement;
+renderUserManagement=function(c){
+ renderUserManagementV36Base(c);
+ if(current?.role!=='admin')return;
+ const section=document.createElement('section');section.className='box';section.innerHTML='<h3>👑 Permissões administrativas dos barbeiros</h3><p class="muted">Um barbeiro promovido continua aparecendo para os clientes e atendendo normalmente.</p><div id="v36AdminList">Carregando profissionais...</div>';
+ c.appendChild(section);loadAdminListV36();
+};
+async function loadAdminListV36(){
+ const el=document.getElementById('v36AdminList');if(!el||!authToken)return;
+ try{
+  const people=await rpc('brooklynxxi_listar_permissoes',{},true);
+  if(!document.getElementById('v36AdminList'))return;
+  el.innerHTML=people.length?people.map(p=>'<div class="booking"><div><b>'+esc(p.name)+'</b><small>'+(p.admin?'👑 Administrador e barbeiro':'✂️ Barbeiro')+'</small></div><button class="'+(p.admin?'secondary':'primary')+' tiny" onclick="setAdminV36(\''+p.id+'\','+(!p.admin)+')">'+(p.admin?'Remover admin':'Tornar admin')+'</button></div>').join(''):'<p class="muted">Nenhum barbeiro com conta vinculada.</p>';
+ }catch(e){el.textContent='Erro ao carregar permissões: '+e.message;}
+}
+async function setAdminV36(id,grant){
+ if(!confirm((grant?'Conceder':'Remover')+' acesso administrativo deste barbeiro?'))return;
+ try{await rpc('brooklynxxi_definir_admin_barbeiro',{p_profissional:id,p_admin:grant},true);await loadAdminListV36();toast('Permissão atualizada.');}
+ catch(e){toast('Não foi possível alterar: '+e.message);}
+}
+// Enquanto o quadro estiver aberto, consultar o Supabase a cada 15 segundos.
+boardRefreshV32=setInterval(()=>{
+ if(tab==='board32'&&current&&authToken&&!document.hidden)boardLoadV32();
+},15000);
+
+const renderV39Base=renderPanel;
+renderPanel=function(){
+ renderV39Base(); if(!current)return;
+ const alerts=db.bookings.filter(b=>allowed(b)&&b.status==='expired'&&b.followup&&!b.verified_at);
+ const tabs=document.getElementById('panelTabs');
+ const button=document.createElement('button');button.className='secondary '+(tab==='followup'?'active':'');button.textContent='🔔 Acompanhamento ('+alerts.length+')';button.onclick=()=>{tab='followup';renderPanel()};tabs?.appendChild(button);
+ if(tab==='followup'||(tab==='agenda'&&alerts.length)){
+ const c=document.getElementById('panelContent');if(tab==='followup')c.innerHTML='';
+ const section=document.createElement('div');section.className='box';section.innerHTML='<h3>Acompanhamento de clientes ('+alerts.length+')</h3>'+ (alerts.length?alerts.map(b=>`<div class="booking"><div><b>${esc(b.name)}</b> <span class="pill expired">Expirado</span><small>${displayDate(b.date)} • ${esc(b.time)} • ${esc(getBarber(b.barber)?.name||'Barbeiro')}</small><p>Verifique se o cliente deseja solicitar um novo horário.</p><a class="whats-link" href="${esc(bookingWhatsUrl(b))}" target="_blank" rel="noopener noreferrer">📱 Entrar em contato</a></div><button class="secondary tiny" onclick="verifyV39('${b.id}')">Marcar como verificado</button></div>`).join(''):'<p class="muted">Nenhum acompanhamento pendente.</p>');c.prepend(section);
+ }
+};
+async function verifyV39(id){try{await rpc('brooklynxxi_verificar_expirado',{p_id:id},true);await syncAgenda();toast('Acompanhamento verificado.');}catch(e){toast(e.message)}}
+</script>
+</body></html>

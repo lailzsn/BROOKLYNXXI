@@ -1,0 +1,4 @@
+BROOKLYNXXI V35 — quadro dinamico por quantidade de barbeiros.
+Ocultar/mostrar barbeiro apenas no painel logado, por sessao do navegador.
+Nao altera o cadastro, os horarios publicos ou as notificacoes.
+Sem SQL novo. Publique o conteudo de SITE_GITHUB na raiz do GitHub Pages.

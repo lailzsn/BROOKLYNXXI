@@ -1,0 +1,7 @@
+BROOKLYNXXI V36
+1. Fazer backup do site e banco.
+2. Executar SQL_V36_PERMISSOES_ADMIN.sql no Supabase SQL Editor.
+3. Publicar CONTEÚDO de SITE_GITHUB na raiz do repositório GitHub Pages.
+4. Testar com administrador e barbeiro reais.
+Novidades: celular com 1 barbeiro por vez e setas; computador com colunas dinâmicas; promover/remover admin na aba Usuários; sessão persistente em localStorage com renovação Supabase.
+Observação: sessão pode terminar se for revogada/expirar no servidor; sair limpa sessão neste dispositivo.

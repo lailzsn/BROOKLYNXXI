@@ -1,0 +1,9 @@
+BROOKLYNXXI V33 — Painel de horários exclusivo
+
+1. Não precisa executar SQL novo. Mantenha SQL V31 e V32 já executados.
+2. Envie o conteúdo de SITE_GITHUB para a raiz do repositório GitHub Pages.
+3. Faça login, abra Horários marcados e clique em Enquadrar painel.
+4. A atualização automática não recolhe mais o quadro enquanto consulta os dados.
+5. Use Sair da tela exclusiva para voltar ao painel administrativo.
+
+O símbolo logo.jpg e a imagem barbearia-fundo.jpg já estão incluídos.

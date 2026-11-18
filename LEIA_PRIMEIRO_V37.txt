@@ -1,0 +1,6 @@
+BROOKLYNXXI V37 — Correção do painel de horários
+
+Agora os botões Gerenciar barbeiros e Mostrar todos permanecem visíveis mesmo quando todos os barbeiros foram ocultados.
+O modo celular também mantém visível a coluna selecionada.
+
+Não é necessário executar SQL. Publique os arquivos da pasta SITE_GITHUB na raiz do repositório.

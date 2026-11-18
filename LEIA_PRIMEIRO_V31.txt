@@ -1,0 +1,9 @@
+BROOKLYNXXI V31
+
+1. Faça backup das funções e tabelas no Supabase.
+2. Execute SQL_V31_EXECUTAR_NO_SUPABASE.sql no SQL Editor.
+3. Publique os arquivos da pasta SITE_GITHUB na raiz do repositório GitHub Pages.
+4. Abra o app, faça login e vá à aba ⏱️ Duração.
+5. Teste reserva pública, duração individual, horários conflitantes e notificações.
+
+Importante: o SQL deve ser executado ANTES de publicar o HTML.
